@@ -27,7 +27,10 @@ transporter.verify((err, success) => {
 const sendMail = async (mailOptions) => {
 
     //Apply mail from
-    mailOptions.from = process.env.MAIL_FROM;
+    mailOptions.from = {
+        name: process.env.MAIL_FROM_NAME,
+        address: process.env.MAIL_FROM
+    };
 
     try {
         await transporter.sendMail(mailOptions);
@@ -45,8 +48,8 @@ const sendLoginVerificationMail = async (user, otp) => {
     //Send verification email
     const mailOptions = {
         to: user.email,
-        subject: 'Verification email',
-        text: `Your ont time password : ${otp}`,
+        subject: 'Sign in request',
+        text: `Your one time password : ${otp}`,
         html: result
     };
 

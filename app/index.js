@@ -1,4 +1,4 @@
-//Only way to force dotenv.config() to be called BEFORE any ohter imported code
+//Only way to force dotenv.config() to be called BEFORE any other imported code
 //You can't use the following code :
 //import dotenv from 'dotenv'
 //dotenv.config();

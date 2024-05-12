@@ -36,7 +36,7 @@ const UserSchema = new mongoose.Schema({
     },
     sharedSecret: {
         type: String,
-        required: true,
+        required: false,
     },
     refreshToken: {
         type: String,

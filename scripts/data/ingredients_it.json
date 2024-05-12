@@ -1,0 +1,6418 @@
+[
+  {
+    "avgQuantity": 5.23182,
+    "id": 1,
+    "modifier_type": null,
+    "name": "salsa worcestershire",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 18.75,
+    "id": 5,
+    "modifier_type": null,
+    "name": "salsa olandese",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 4,
+    "id": 6,
+    "modifier_type": null,
+    "name": "aceto balsamico",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 184,
+    "id": 7,
+    "modifier_type": null,
+    "name": "cavoletti di bruxelles",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20,
+    "id": 9,
+    "modifier_type": null,
+    "name": "citronella",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 162.5,
+    "id": 10,
+    "modifier_type": null,
+    "name": "zucca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 57.7432,
+    "id": 11,
+    "modifier_type": null,
+    "name": "gamberetto (con guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 54.7752,
+    "id": 12,
+    "modifier_type": null,
+    "name": "lattuga",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 13.8498,
+    "id": 14,
+    "modifier_type": null,
+    "name": "scalogno",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 137.162,
+    "id": 15,
+    "modifier_type": null,
+    "name": "melanzane",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 24.9045,
+    "id": 17,
+    "modifier_type": null,
+    "name": "acciughe",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 13.2555,
+    "id": 18,
+    "modifier_type": null,
+    "name": "formaggio parmigiano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 20,
+    "modifier_type": null,
+    "name": "dolce di latte",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 48,
+    "id": 21,
+    "modifier_type": null,
+    "name": "tortilla di mais",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 9.81,
+    "id": 23,
+    "modifier_type": null,
+    "name": "farina di mais",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 25,
+    "id": 24,
+    "modifier_type": null,
+    "name": "latte condensato",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 1.9875,
+    "id": 25,
+    "modifier_type": null,
+    "name": "coriandolo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 7.19167,
+    "id": 30,
+    "modifier_type": null,
+    "name": "peperoncini",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 54.07,
+    "id": 31,
+    "modifier_type": null,
+    "name": "creme fraiche",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 170,
+    "id": 32,
+    "modifier_type": null,
+    "name": "mango (intero)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 4.18821,
+    "id": 33,
+    "modifier_type": null,
+    "name": "semi di sesamo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 80.0844,
+    "id": 34,
+    "modifier_type": null,
+    "name": "fragole",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 17.4467,
+    "id": 35,
+    "modifier_type": null,
+    "name": "pasta fillo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 37,
+    "modifier_type": null,
+    "name": "riso basmati",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 24.7167,
+    "id": 38,
+    "modifier_type": null,
+    "name": "crema di formaggio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30.3236,
+    "id": 39,
+    "modifier_type": null,
+    "name": "germogli di fagiolo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 27,
+    "id": 40,
+    "modifier_type": null,
+    "name": "finferli",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10.2616,
+    "id": 41,
+    "modifier_type": null,
+    "name": "peperoncino",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 16.7,
+    "id": 44,
+    "modifier_type": null,
+    "name": "pinoli",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.842144,
+    "id": 45,
+    "modifier_type": "salt",
+    "name": "sale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 53.4077,
+    "id": 46,
+    "modifier_type": null,
+    "name": "vino",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 12.1673,
+    "id": 47,
+    "modifier_type": "sugar",
+    "name": "zucchero",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 48,
+    "modifier_type": null,
+    "name": "formaggio fresco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 125,
+    "id": 50,
+    "modifier_type": null,
+    "name": "pesche",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20,
+    "id": 54,
+    "modifier_type": "sugar",
+    "name": "sciroppo d'acero",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 55,
+    "modifier_type": null,
+    "name": "mirtilli",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 200,
+    "id": 58,
+    "modifier_type": null,
+    "name": "melograno",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 3.75,
+    "id": 59,
+    "modifier_type": null,
+    "name": "kombu",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 86.816,
+    "id": 60,
+    "modifier_type": null,
+    "name": "cavolfiore",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 17.092,
+    "id": 61,
+    "modifier_type": null,
+    "name": "briciole di pane",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 85,
+    "id": 62,
+    "modifier_type": null,
+    "name": "fagioli bianchi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 2,
+    "id": 63,
+    "modifier_type": null,
+    "name": "rafano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 76.5,
+    "id": 64,
+    "modifier_type": null,
+    "name": "pompelmo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 1,
+    "id": 65,
+    "modifier_type": null,
+    "name": "spezie",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 66.6667,
+    "id": 67,
+    "modifier_type": null,
+    "name": "lamponi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 1.82,
+    "id": 68,
+    "modifier_type": null,
+    "name": "granello di pepe nero",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 78.1429,
+    "id": 69,
+    "modifier_type": null,
+    "name": "mirtilli",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 112.5,
+    "id": 71,
+    "modifier_type": null,
+    "name": "seppia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 22.3733,
+    "id": 72,
+    "modifier_type": null,
+    "name": "maionese",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 98.2696,
+    "id": 73,
+    "modifier_type": null,
+    "name": "acqua",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 24.836,
+    "id": 78,
+    "modifier_type": null,
+    "name": "latticello",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 71.2156,
+    "id": 79,
+    "modifier_type": null,
+    "name": "broccoli",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 53.75,
+    "id": 85,
+    "modifier_type": null,
+    "name": "vermicelli",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 63.665,
+    "id": 88,
+    "modifier_type": null,
+    "name": "ocra",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 14.7629,
+    "id": 89,
+    "modifier_type": null,
+    "name": "amido di mais",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 90,
+    "modifier_type": "sugar",
+    "name": "zucchero di palma",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 70,
+    "id": 93,
+    "modifier_type": null,
+    "name": "riso integrale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 26.289,
+    "id": 97,
+    "modifier_type": null,
+    "name": "formaggio mozzarella",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 103.679,
+    "id": 99,
+    "modifier_type": null,
+    "name": "mela",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 46.9329,
+    "id": 100,
+    "modifier_type": null,
+    "name": "vino bianco",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 45.8891,
+    "id": 102,
+    "modifier_type": null,
+    "name": "prosciutto",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 26,
+    "id": 103,
+    "modifier_type": null,
+    "name": "mortadella",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 107,
+    "modifier_type": null,
+    "name": "foie gras",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 17,
+    "id": 109,
+    "modifier_type": null,
+    "name": "pistacchio (con guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 71.5689,
+    "id": 112,
+    "modifier_type": null,
+    "name": "pomodoro",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 43.818,
+    "id": 113,
+    "modifier_type": null,
+    "name": "pane",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 168,
+    "id": 114,
+    "modifier_type": null,
+    "name": "cachi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 116,
+    "modifier_type": null,
+    "name": "margarina",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 117,
+    "modifier_type": null,
+    "name": "fieno greco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 119,
+    "modifier_type": null,
+    "name": "topinambur",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 8.6472,
+    "id": 121,
+    "modifier_type": "oil",
+    "name": "olio d'oliva",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 85.76,
+    "id": 124,
+    "modifier_type": null,
+    "name": "ananas (con buccia)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 127,
+    "modifier_type": null,
+    "name": "gochujang",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 2.8,
+    "id": 130,
+    "modifier_type": null,
+    "name": "coriandolo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 175,
+    "id": 131,
+    "modifier_type": null,
+    "name": "pesce spada",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 113.148,
+    "id": 132,
+    "modifier_type": null,
+    "name": "carciofi (non pelato)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 21.6667,
+    "id": 133,
+    "modifier_type": null,
+    "name": "formaggio roquefort",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 64.5,
+    "id": 138,
+    "modifier_type": null,
+    "name": "couscous",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 15.5,
+    "id": 139,
+    "modifier_type": null,
+    "name": "albume",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 18.1646,
+    "id": 140,
+    "modifier_type": null,
+    "name": "cioccolato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 70,
+    "id": 142,
+    "modifier_type": null,
+    "name": "ceci",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 83.5714,
+    "id": 143,
+    "modifier_type": null,
+    "name": "spaghetti",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 62.2353,
+    "id": 144,
+    "modifier_type": null,
+    "name": "zucchine",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 65,
+    "id": 145,
+    "modifier_type": null,
+    "name": "asparago",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 146,
+    "modifier_type": null,
+    "name": "tortilla",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 35.375,
+    "id": 148,
+    "modifier_type": null,
+    "name": "castanea (con guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 63.6783,
+    "id": 151,
+    "modifier_type": null,
+    "name": "baguette",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 2.225,
+    "id": 158,
+    "modifier_type": null,
+    "name": "gelatina",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 2.3975,
+    "id": 160,
+    "modifier_type": null,
+    "name": "paprika",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 86.0707,
+    "id": 164,
+    "modifier_type": null,
+    "name": "tagliatelle",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 85,
+    "id": 166,
+    "modifier_type": null,
+    "name": "gambero (con guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 58.0911,
+    "id": 169,
+    "modifier_type": null,
+    "name": "cetriolo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 87.5,
+    "id": 171,
+    "modifier_type": null,
+    "name": "maccheroni",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 25.6747,
+    "id": 175,
+    "modifier_type": null,
+    "name": "peperoncino",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 62.5687,
+    "id": 176,
+    "modifier_type": null,
+    "name": "funghi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 1.026,
+    "id": 181,
+    "modifier_type": null,
+    "name": "maggiorana",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 5.4,
+    "id": 190,
+    "modifier_type": null,
+    "name": "ribes",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 44.5,
+    "id": 191,
+    "modifier_type": null,
+    "name": "cavolo cinese",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 21.45,
+    "id": 193,
+    "modifier_type": null,
+    "name": "ciliegie",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 18,
+    "id": 194,
+    "modifier_type": null,
+    "name": "nocciola",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 196,
+    "modifier_type": null,
+    "name": "tamarindo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 16.4277,
+    "id": 197,
+    "modifier_type": null,
+    "name": "tuorlo d'uovo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.05,
+    "id": 199,
+    "modifier_type": null,
+    "name": "pepe di giamaica",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 82.058,
+    "id": 200,
+    "modifier_type": null,
+    "name": "granchio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 1.01083,
+    "id": 201,
+    "modifier_type": null,
+    "name": "rosmarino",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 123.168,
+    "id": 204,
+    "modifier_type": null,
+    "name": "patate",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 206,
+    "modifier_type": null,
+    "name": "curcuma",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 1.15167,
+    "id": 207,
+    "modifier_type": null,
+    "name": "cardamomo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 35,
+    "id": 208,
+    "modifier_type": null,
+    "name": "cracker",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 16.36,
+    "id": 211,
+    "modifier_type": null,
+    "name": "biscotti",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.761667,
+    "id": 212,
+    "modifier_type": null,
+    "name": "cannella",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 15,
+    "id": 215,
+    "modifier_type": null,
+    "name": "crostini",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 218,
+    "modifier_type": null,
+    "name": "caffè espresso",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 0.815,
+    "id": 219,
+    "modifier_type": null,
+    "name": "dragoncello",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 16.9643,
+    "id": 222,
+    "modifier_type": null,
+    "name": "formaggio pecorino",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 40,
+    "id": 224,
+    "modifier_type": null,
+    "name": "pancetta",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20,
+    "id": 227,
+    "modifier_type": null,
+    "name": "sgombro (intero)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 229,
+    "modifier_type": null,
+    "name": "carne di cervo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.13,
+    "id": 230,
+    "modifier_type": null,
+    "name": "zafferano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 170.1,
+    "id": 232,
+    "modifier_type": null,
+    "name": "controfiletto",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 80,
+    "id": 233,
+    "modifier_type": null,
+    "name": "whisky",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 42.5,
+    "id": 235,
+    "modifier_type": null,
+    "name": "albicocca (intera)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 166,
+    "id": 236,
+    "modifier_type": null,
+    "name": "pastinaca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 121.667,
+    "id": 237,
+    "modifier_type": null,
+    "name": "crema",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 238,
+    "modifier_type": null,
+    "name": "fiocchi d'avena",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 239,
+    "modifier_type": null,
+    "name": "snapper",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 101.392,
+    "id": 241,
+    "modifier_type": null,
+    "name": "lenticchie",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 116.922,
+    "id": 242,
+    "modifier_type": null,
+    "name": "aragosta (intera)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 57.5,
+    "id": 243,
+    "modifier_type": null,
+    "name": "pettine (con guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 150,
+    "id": 244,
+    "modifier_type": null,
+    "name": "sardine (intera)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.02,
+    "id": 247,
+    "modifier_type": null,
+    "name": "peperoncino di cayenna",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 5,
+    "id": 251,
+    "modifier_type": null,
+    "name": "cerfoglio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 252,
+    "modifier_type": null,
+    "name": "formaggio fontina",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.944872,
+    "id": 253,
+    "modifier_type": null,
+    "name": "vaniglia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 2.41779,
+    "id": 256,
+    "modifier_type": null,
+    "name": "prezzemolo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.507391,
+    "id": 257,
+    "modifier_type": null,
+    "name": "origano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 24.1667,
+    "id": 258,
+    "modifier_type": null,
+    "name": "rucola",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 32.225,
+    "id": 259,
+    "modifier_type": null,
+    "name": "chorizo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 49.375,
+    "id": 261,
+    "modifier_type": null,
+    "name": "fagioli di soia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 43.3333,
+    "id": 268,
+    "modifier_type": null,
+    "name": "polenta",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 99.4647,
+    "id": 269,
+    "modifier_type": null,
+    "name": "pollo (con ossa)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 32.3286,
+    "id": 270,
+    "modifier_type": null,
+    "name": "alga marina",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 50,
+    "id": 271,
+    "modifier_type": null,
+    "name": "tequila",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 272,
+    "modifier_type": null,
+    "name": "frutti di mare",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 14.8393,
+    "id": 274,
+    "modifier_type": null,
+    "name": "uva passa",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 45.5525,
+    "id": 276,
+    "modifier_type": null,
+    "name": "noce di cocco (intero)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 277,
+    "modifier_type": null,
+    "name": "eglefino",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 21.6818,
+    "id": 278,
+    "modifier_type": null,
+    "name": "scalogno",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 85.935,
+    "id": 279,
+    "modifier_type": null,
+    "name": "spinaci",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 128.333,
+    "id": 284,
+    "modifier_type": null,
+    "name": "polpo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 13.2812,
+    "id": 287,
+    "modifier_type": null,
+    "name": "ketchup",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 42.6144,
+    "id": 291,
+    "modifier_type": null,
+    "name": "avocado (intero)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 293,
+    "modifier_type": null,
+    "name": "halibut",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 60.9771,
+    "id": 297,
+    "modifier_type": null,
+    "name": "cavolo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 31,
+    "id": 298,
+    "modifier_type": null,
+    "name": "rabarbaro",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 3,
+    "id": 300,
+    "modifier_type": null,
+    "name": "giuggiole",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 11.69,
+    "id": 301,
+    "modifier_type": null,
+    "name": "tapioca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 63.7379,
+    "id": 304,
+    "modifier_type": null,
+    "name": "yogurt",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 305,
+    "modifier_type": null,
+    "name": "liquore",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 35,
+    "id": 307,
+    "modifier_type": null,
+    "name": "popcorn",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 8.35457,
+    "id": 308,
+    "modifier_type": null,
+    "name": "aceto",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 62.7778,
+    "id": 310,
+    "modifier_type": null,
+    "name": "cozze (con guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 70.6,
+    "id": 311,
+    "modifier_type": null,
+    "name": "salsicce",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 126.5,
+    "id": 312,
+    "modifier_type": null,
+    "name": "gnocchi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 17.22,
+    "id": 318,
+    "modifier_type": null,
+    "name": "wonton",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 2.59667,
+    "id": 319,
+    "modifier_type": null,
+    "name": "capperi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 38.225,
+    "id": 320,
+    "modifier_type": null,
+    "name": "brandi",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 50,
+    "id": 321,
+    "modifier_type": null,
+    "name": "quinoa",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 18.3333,
+    "id": 322,
+    "modifier_type": null,
+    "name": "anacardio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 324,
+    "modifier_type": null,
+    "name": "rene",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 101.429,
+    "id": 327,
+    "modifier_type": null,
+    "name": "rapa",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 120,
+    "id": 328,
+    "modifier_type": null,
+    "name": "cialda",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 19.095,
+    "id": 336,
+    "modifier_type": null,
+    "name": "bambù",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 148,
+    "id": 340,
+    "modifier_type": null,
+    "name": "indivia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 342,
+    "modifier_type": null,
+    "name": "cotoletta",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10.8406,
+    "id": 347,
+    "modifier_type": null,
+    "name": "burro",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 145,
+    "id": 348,
+    "modifier_type": null,
+    "name": "papaia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 109.167,
+    "id": 350,
+    "modifier_type": null,
+    "name": "schiacciare",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 42,
+    "id": 351,
+    "modifier_type": null,
+    "name": "cognac",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 80.0667,
+    "id": 353,
+    "modifier_type": null,
+    "name": "tacchino (con ossa)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 37.9167,
+    "id": 355,
+    "modifier_type": null,
+    "name": "bulgur",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 97.9185,
+    "id": 358,
+    "modifier_type": null,
+    "name": "maiale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.314,
+    "id": 359,
+    "modifier_type": null,
+    "name": "noce moscata",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 23.7292,
+    "id": 365,
+    "modifier_type": null,
+    "name": "sedano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 13.0714,
+    "id": 367,
+    "modifier_type": null,
+    "name": "finocchio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 18,
+    "id": 369,
+    "modifier_type": null,
+    "name": "ostrica (con guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 133.236,
+    "id": 370,
+    "modifier_type": null,
+    "name": "salmone",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 18.75,
+    "id": 372,
+    "modifier_type": null,
+    "name": "kimchi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 2.00587,
+    "id": 374,
+    "modifier_type": null,
+    "name": "zenzero",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 64.1989,
+    "id": 375,
+    "modifier_type": null,
+    "name": "banana (con buccia)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 29.2254,
+    "id": 380,
+    "modifier_type": null,
+    "name": "formaggio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 2.16976,
+    "id": 381,
+    "modifier_type": null,
+    "name": "aglio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 62.5333,
+    "id": 383,
+    "modifier_type": null,
+    "name": "uva",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 385,
+    "modifier_type": null,
+    "name": "orzo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 16.4125,
+    "id": 386,
+    "modifier_type": null,
+    "name": "salsa di hoisin",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 64.7033,
+    "id": 387,
+    "modifier_type": null,
+    "name": "caffè",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 61.6818,
+    "id": 388,
+    "modifier_type": null,
+    "name": "arancia (intera)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 16.725,
+    "id": 389,
+    "modifier_type": null,
+    "name": "noce (con guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 390,
+    "modifier_type": null,
+    "name": "focaccina",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 35.0201,
+    "id": 395,
+    "modifier_type": null,
+    "name": "carota",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 15.335,
+    "id": 396,
+    "modifier_type": null,
+    "name": "pickle",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 397,
+    "modifier_type": null,
+    "name": "coniglio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 36.1167,
+    "id": 399,
+    "modifier_type": null,
+    "name": "ravanello",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 63.5,
+    "id": 404,
+    "modifier_type": null,
+    "name": "miglio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 16.9436,
+    "id": 405,
+    "modifier_type": null,
+    "name": "mandorle",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 85,
+    "id": 406,
+    "modifier_type": null,
+    "name": "lumache",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 12.835,
+    "id": 407,
+    "modifier_type": null,
+    "name": "arachide",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 154.5,
+    "id": 408,
+    "modifier_type": null,
+    "name": "brodo di pesce",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 20.3685,
+    "id": 409,
+    "modifier_type": null,
+    "name": "limone",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 38.4993,
+    "id": 410,
+    "modifier_type": null,
+    "name": "crema",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 2.53667,
+    "id": 411,
+    "modifier_type": null,
+    "name": "cacao",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 413,
+    "modifier_type": null,
+    "name": "trippa",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 3.675,
+    "id": 416,
+    "modifier_type": null,
+    "name": "anice",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 112.5,
+    "id": 417,
+    "modifier_type": null,
+    "name": "vongole (con guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 419,
+    "modifier_type": null,
+    "name": "curry",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 77.8833,
+    "id": 420,
+    "modifier_type": null,
+    "name": "fagioli",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 192,
+    "id": 424,
+    "modifier_type": null,
+    "name": "grano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 28.0763,
+    "id": 427,
+    "modifier_type": null,
+    "name": "cipolla",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 116.776,
+    "id": 431,
+    "modifier_type": null,
+    "name": "calamaro",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 44,
+    "id": 433,
+    "modifier_type": null,
+    "name": "fegato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 54,
+    "id": 434,
+    "modifier_type": null,
+    "name": "panko",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 1.94273,
+    "id": 435,
+    "modifier_type": null,
+    "name": "basilico",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 221,
+    "id": 442,
+    "modifier_type": null,
+    "name": "bistecca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.496923,
+    "id": 443,
+    "modifier_type": null,
+    "name": "cumino",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 5.88067,
+    "id": 444,
+    "modifier_type": null,
+    "name": "senape",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 68.9833,
+    "id": 449,
+    "modifier_type": null,
+    "name": "barbabietole",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 11.81,
+    "id": 451,
+    "modifier_type": null,
+    "name": "bietola",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 453,
+    "modifier_type": null,
+    "name": "bagel",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 1.03629,
+    "id": 454,
+    "modifier_type": null,
+    "name": "chiodo di garofano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 455,
+    "modifier_type": null,
+    "name": "fesso",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 90,
+    "id": 459,
+    "modifier_type": null,
+    "name": "fiocchi d'avena",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 461,
+    "modifier_type": null,
+    "name": "oca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 36.6667,
+    "id": 462,
+    "modifier_type": null,
+    "name": "gamberi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.9475,
+    "id": 465,
+    "modifier_type": null,
+    "name": "timo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 32.3069,
+    "id": 467,
+    "modifier_type": null,
+    "name": "farina",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 39.3333,
+    "id": 468,
+    "modifier_type": null,
+    "name": "pesto alla genovese",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 473,
+    "modifier_type": null,
+    "name": "bistecca di fianchetto",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 7.95385,
+    "id": 475,
+    "modifier_type": "sugar",
+    "name": "miele",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 476,
+    "modifier_type": null,
+    "name": "vodka",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 16.2,
+    "id": 478,
+    "modifier_type": null,
+    "name": "olive (con nocciolo)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 9,
+    "id": 479,
+    "modifier_type": null,
+    "name": "pecan",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 187,
+    "id": 480,
+    "modifier_type": null,
+    "name": "brodo",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 74.3442,
+    "id": 482,
+    "modifier_type": null,
+    "name": "pasta",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 486,
+    "modifier_type": null,
+    "name": "guaiava",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 38.8325,
+    "id": 487,
+    "modifier_type": null,
+    "name": "bacon",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 3.01609,
+    "id": 490,
+    "modifier_type": null,
+    "name": "lievito",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 118.5,
+    "id": 493,
+    "modifier_type": null,
+    "name": "melone",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 90.0067,
+    "id": 496,
+    "modifier_type": null,
+    "name": "pera",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 73.374,
+    "id": 498,
+    "modifier_type": null,
+    "name": "porro",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.443333,
+    "id": 501,
+    "modifier_type": null,
+    "name": "aneto",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 137.5,
+    "id": 503,
+    "modifier_type": null,
+    "name": "lombo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 83.38,
+    "id": 504,
+    "modifier_type": null,
+    "name": "tofu",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 54,
+    "id": 505,
+    "modifier_type": null,
+    "name": "prugna",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 29.6653,
+    "id": 507,
+    "modifier_type": null,
+    "name": "mais",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 509,
+    "modifier_type": null,
+    "name": "lardo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 3.2,
+    "id": 512,
+    "modifier_type": null,
+    "name": "ghee",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 513,
+    "modifier_type": null,
+    "name": "fuco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 132.2,
+    "id": 514,
+    "modifier_type": null,
+    "name": "vitello",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 95.8772,
+    "id": 516,
+    "modifier_type": null,
+    "name": "tonno",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 35.9525,
+    "id": 517,
+    "modifier_type": null,
+    "name": "sfoglia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 89.511,
+    "id": 522,
+    "modifier_type": null,
+    "name": "manzo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 524,
+    "modifier_type": null,
+    "name": "pita",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 71.318,
+    "id": 528,
+    "modifier_type": null,
+    "name": "riso",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 2.878,
+    "id": 529,
+    "modifier_type": null,
+    "name": "saggio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 5,
+    "id": 532,
+    "modifier_type": null,
+    "name": "menta",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 533,
+    "modifier_type": null,
+    "name": "coleslaw",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 5.742,
+    "id": 535,
+    "modifier_type": null,
+    "name": "miso",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 537,
+    "modifier_type": null,
+    "name": "carpa",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 169.615,
+    "id": 538,
+    "modifier_type": null,
+    "name": "pesce",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 104.087,
+    "id": 539,
+    "modifier_type": null,
+    "name": "merluzzo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 154.167,
+    "id": 540,
+    "modifier_type": null,
+    "name": "nasello",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20.125,
+    "id": 541,
+    "modifier_type": null,
+    "name": "data",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 16.9386,
+    "id": 543,
+    "modifier_type": null,
+    "name": "formaggio feta",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 39.5,
+    "id": 544,
+    "modifier_type": null,
+    "name": "panini",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 99.9523,
+    "id": 545,
+    "modifier_type": null,
+    "name": "agnello",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 11.2318,
+    "id": 548,
+    "modifier_type": null,
+    "name": "lime",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 146.863,
+    "id": 549,
+    "modifier_type": null,
+    "name": "anatra",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 550,
+    "modifier_type": null,
+    "name": "basso",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 2.24375,
+    "id": 554,
+    "modifier_type": null,
+    "name": "nemmeno io",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 69.841,
+    "id": 555,
+    "modifier_type": null,
+    "name": "latte",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 30.0557,
+    "id": 559,
+    "modifier_type": null,
+    "name": "rum",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 28.35,
+    "id": 560,
+    "modifier_type": null,
+    "name": "anguilla",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 8.96626,
+    "id": 562,
+    "modifier_type": "oil",
+    "name": "olio",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 200,
+    "id": 563,
+    "modifier_type": null,
+    "name": "costola",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 23.9546,
+    "id": 567,
+    "modifier_type": null,
+    "name": "soia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 40,
+    "id": 568,
+    "modifier_type": null,
+    "name": "fico",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 32.5878,
+    "id": 569,
+    "modifier_type": null,
+    "name": "uovo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 86.2333,
+    "id": 570,
+    "modifier_type": null,
+    "name": "tè",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 185.915,
+    "id": 572,
+    "modifier_type": null,
+    "name": "birra",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 60,
+    "id": 573,
+    "modifier_type": null,
+    "name": "indivia riccia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 8.06936,
+    "id": 574,
+    "modifier_type": null,
+    "name": "olio di sesamo",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 57.1256,
+    "id": 575,
+    "modifier_type": null,
+    "name": "pepe verde",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 55,
+    "id": 577,
+    "modifier_type": null,
+    "name": "besciamella",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 23.0283,
+    "id": 579,
+    "modifier_type": null,
+    "name": "formaggio groviera",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 90,
+    "id": 580,
+    "modifier_type": null,
+    "name": "fave",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 12.0496,
+    "id": 582,
+    "modifier_type": null,
+    "name": "salsa di soia",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 40,
+    "id": 586,
+    "modifier_type": null,
+    "name": "cannelloni",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 587,
+    "modifier_type": null,
+    "name": "coda di rospo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 150,
+    "id": 589,
+    "modifier_type": null,
+    "name": "trota (intero)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 7.282,
+    "id": 590,
+    "modifier_type": null,
+    "name": "polvere di cacao",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 51.0677,
+    "id": 597,
+    "modifier_type": null,
+    "name": "piselli verdi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 53.1368,
+    "id": 600,
+    "modifier_type": null,
+    "name": "fagioli verdi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 13.512,
+    "id": 601,
+    "modifier_type": null,
+    "name": "olive nere",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 12,
+    "id": 605,
+    "modifier_type": null,
+    "name": "salsiccia nera",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 26.2455,
+    "id": 610,
+    "modifier_type": null,
+    "name": "peperoncino",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 40,
+    "id": 617,
+    "modifier_type": null,
+    "name": "sobrasada",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 18.3691,
+    "id": 618,
+    "modifier_type": null,
+    "name": "cioccolato fondente",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 621,
+    "modifier_type": null,
+    "name": "seitan",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 622,
+    "modifier_type": null,
+    "name": "anisetta",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 1.59138,
+    "id": 626,
+    "modifier_type": null,
+    "name": "lievito in polvere",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 12.5,
+    "id": 628,
+    "modifier_type": null,
+    "name": "fungo neve",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 200,
+    "id": 630,
+    "modifier_type": null,
+    "name": "trichiurus lepturus",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 200,
+    "id": 634,
+    "modifier_type": null,
+    "name": "carassio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 125,
+    "id": 637,
+    "modifier_type": null,
+    "name": "testa di pesce",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.21,
+    "id": 638,
+    "modifier_type": null,
+    "name": "wasabi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 53.5,
+    "id": 639,
+    "modifier_type": null,
+    "name": "salsa di sugo",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 641,
+    "modifier_type": null,
+    "name": "cicoria",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 169.682,
+    "id": 644,
+    "modifier_type": null,
+    "name": "brodo di manzo",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 9,
+    "id": 645,
+    "modifier_type": "sugar",
+    "name": "melassa",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 3.335,
+    "id": 646,
+    "modifier_type": null,
+    "name": "seme di papavero",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 77.8325,
+    "id": 649,
+    "modifier_type": null,
+    "name": "fagioli",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 652,
+    "modifier_type": null,
+    "name": "fagiolo marrone",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 655,
+    "modifier_type": null,
+    "name": "fegato di maiale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 656,
+    "modifier_type": null,
+    "name": "maiale grasso",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 17.94,
+    "id": 657,
+    "modifier_type": null,
+    "name": "burro di arachidi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 24.5,
+    "id": 659,
+    "modifier_type": null,
+    "name": "cioccolato bianco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 663,
+    "modifier_type": null,
+    "name": "barbabietola",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 120,
+    "id": 667,
+    "modifier_type": null,
+    "name": "semolino",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 66.685,
+    "id": 668,
+    "modifier_type": null,
+    "name": "kiwi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 43.6686,
+    "id": 674,
+    "modifier_type": null,
+    "name": "limonata",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 75,
+    "id": 676,
+    "modifier_type": null,
+    "name": "gin",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 36.17,
+    "id": 681,
+    "modifier_type": null,
+    "name": "marzapane",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 684,
+    "modifier_type": null,
+    "name": "chipolata",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 23.75,
+    "id": 690,
+    "modifier_type": null,
+    "name": "liquirizia",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 6,
+    "id": 691,
+    "modifier_type": null,
+    "name": "caramello",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 7.84091,
+    "id": 696,
+    "modifier_type": null,
+    "name": "tahini",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 700,
+    "modifier_type": null,
+    "name": "germe di grano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 4.8,
+    "id": 703,
+    "modifier_type": "sugar",
+    "name": "dolcificante",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 705,
+    "modifier_type": null,
+    "name": "more",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 709,
+    "modifier_type": null,
+    "name": "segale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 88,
+    "id": 718,
+    "modifier_type": null,
+    "name": "mandarino (intero)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 150,
+    "id": 721,
+    "modifier_type": null,
+    "name": "uva spina",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 35,
+    "id": 727,
+    "modifier_type": null,
+    "name": "frutta secca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 74,
+    "id": 733,
+    "modifier_type": null,
+    "name": "clementina",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 156,
+    "id": 734,
+    "modifier_type": null,
+    "name": "nettarine",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20.6883,
+    "id": 738,
+    "modifier_type": null,
+    "name": "salsa barbecue",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 60,
+    "id": 739,
+    "modifier_type": null,
+    "name": "pomodoro ciliegino",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 91,
+    "id": 744,
+    "modifier_type": null,
+    "name": "carambole",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 746,
+    "modifier_type": null,
+    "name": "erba medica",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 63.0459,
+    "id": 750,
+    "modifier_type": null,
+    "name": "salsa di pomodoro",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 267,
+    "id": 753,
+    "modifier_type": null,
+    "name": "anguria",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 111,
+    "id": 756,
+    "modifier_type": null,
+    "name": "mela cotogna",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 21.4,
+    "id": 757,
+    "modifier_type": null,
+    "name": "semi di girasole",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 762,
+    "modifier_type": null,
+    "name": "vino rosato",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 25,
+    "id": 766,
+    "modifier_type": null,
+    "name": "noci di macadamia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 770,
+    "modifier_type": null,
+    "name": "succo di ananas (zucchero aggiunto)",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 83.445,
+    "id": 780,
+    "modifier_type": null,
+    "name": "vino rosso",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 150,
+    "id": 781,
+    "modifier_type": null,
+    "name": "frutto della passione",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 50,
+    "id": 785,
+    "modifier_type": null,
+    "name": "kumquat",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 248,
+    "id": 789,
+    "modifier_type": null,
+    "name": "cedro",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 74.78,
+    "id": 792,
+    "modifier_type": null,
+    "name": "carne",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 26,
+    "id": 794,
+    "modifier_type": null,
+    "name": "paté",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 4.366,
+    "id": 795,
+    "modifier_type": null,
+    "name": "erba cipollina",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 120,
+    "id": 796,
+    "modifier_type": null,
+    "name": "cava",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 350,
+    "id": 797,
+    "modifier_type": null,
+    "name": "coca cola",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 89.72,
+    "id": 800,
+    "modifier_type": null,
+    "name": "pasta all'uovo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20.4167,
+    "id": 801,
+    "modifier_type": null,
+    "name": "formaggio morbido",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20,
+    "id": 803,
+    "modifier_type": null,
+    "name": "gorgonzola",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 75,
+    "id": 804,
+    "modifier_type": null,
+    "name": "orecchiette",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 15,
+    "id": 805,
+    "modifier_type": null,
+    "name": "formaggio grattugiato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 19.5,
+    "id": 807,
+    "modifier_type": null,
+    "name": "salsiccia di maiale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.4385,
+    "id": 813,
+    "modifier_type": null,
+    "name": "pepe nero",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 16.67,
+    "id": 818,
+    "modifier_type": null,
+    "name": "farina integrale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 163.562,
+    "id": 827,
+    "modifier_type": null,
+    "name": "brodo vegetale",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 66.67,
+    "id": 836,
+    "modifier_type": null,
+    "name": "wurstel",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 42.361,
+    "id": 837,
+    "modifier_type": null,
+    "name": "ricotta",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 2.67125,
+    "id": 838,
+    "modifier_type": null,
+    "name": "alloro",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 840,
+    "modifier_type": null,
+    "name": "gelatina",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 109.81,
+    "id": 841,
+    "modifier_type": null,
+    "name": "costine di maiale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 843,
+    "modifier_type": null,
+    "name": "salsa agrodolce",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 844,
+    "modifier_type": null,
+    "name": "filetto di manzo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 85,
+    "id": 845,
+    "modifier_type": null,
+    "name": "costolette",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 143.263,
+    "id": 848,
+    "modifier_type": null,
+    "name": "brodo di pollo",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 4.66,
+    "id": 849,
+    "modifier_type": null,
+    "name": "vino di riso",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 0.703333,
+    "id": 850,
+    "modifier_type": null,
+    "name": "pepe bianco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 8.95432,
+    "id": 851,
+    "modifier_type": "oil",
+    "name": "olio vegetale",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 108.733,
+    "id": 852,
+    "modifier_type": null,
+    "name": "tilapia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 200,
+    "id": 854,
+    "modifier_type": null,
+    "name": "costine",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.587,
+    "id": 856,
+    "modifier_type": null,
+    "name": "peperoncino in pezzi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 859,
+    "modifier_type": null,
+    "name": "doubanjiang",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 64.375,
+    "id": 862,
+    "modifier_type": null,
+    "name": "fiocchi di latte",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.7,
+    "id": 867,
+    "modifier_type": null,
+    "name": "creolo condimento",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 8.281,
+    "id": 870,
+    "modifier_type": null,
+    "name": "salsa di ostriche",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 50.1333,
+    "id": 871,
+    "modifier_type": null,
+    "name": "wonton involucro",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 875,
+    "modifier_type": null,
+    "name": "condimento per ranch",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 0.92,
+    "id": 882,
+    "modifier_type": null,
+    "name": "santoreggia annua",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 23.3333,
+    "id": 885,
+    "modifier_type": null,
+    "name": "marmellata di prugne",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 11.5,
+    "id": 886,
+    "modifier_type": null,
+    "name": "chutney",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 56.6667,
+    "id": 887,
+    "modifier_type": null,
+    "name": "radice di loto",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 9.0625,
+    "id": 889,
+    "modifier_type": null,
+    "name": "aceto di riso",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 1,
+    "id": 891,
+    "modifier_type": null,
+    "name": "zenzero in polvere",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 894,
+    "modifier_type": null,
+    "name": "felce",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.85625,
+    "id": 897,
+    "modifier_type": null,
+    "name": "bicarbonato di sodio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 21.75,
+    "id": 898,
+    "modifier_type": null,
+    "name": "mascarpone",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 94.2733,
+    "id": 901,
+    "modifier_type": null,
+    "name": "spaghetti di riso",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 76.7,
+    "id": 903,
+    "modifier_type": null,
+    "name": "sanguinaccio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.86,
+    "id": 906,
+    "modifier_type": null,
+    "name": "peperoncino di cayenna",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 136.495,
+    "id": 911,
+    "modifier_type": null,
+    "name": "latte intero",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 1.74,
+    "id": 918,
+    "modifier_type": null,
+    "name": "seme d'anice",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 8.79167,
+    "id": 921,
+    "modifier_type": null,
+    "name": "salsa di pesce",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 0.18,
+    "id": 925,
+    "modifier_type": null,
+    "name": "condimento italiano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 51.88,
+    "id": 926,
+    "modifier_type": null,
+    "name": "lasagne",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 15,
+    "id": 927,
+    "modifier_type": null,
+    "name": "provolone",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 40,
+    "id": 930,
+    "modifier_type": null,
+    "name": "cagliata di formaggio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 15.7725,
+    "id": 937,
+    "modifier_type": null,
+    "name": "cipolla rossa",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 6.065,
+    "id": 938,
+    "modifier_type": null,
+    "name": "aceto di vino rosso",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 5.2325,
+    "id": 940,
+    "modifier_type": null,
+    "name": "salsa chili",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 1.55,
+    "id": 951,
+    "modifier_type": null,
+    "name": "salsa italiana",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 50,
+    "id": 952,
+    "modifier_type": null,
+    "name": "fagioli mung",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 112.992,
+    "id": 953,
+    "modifier_type": null,
+    "name": "latte di cocco",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 4.55375,
+    "id": 963,
+    "modifier_type": null,
+    "name": "taco condimento",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 25,
+    "id": 966,
+    "modifier_type": null,
+    "name": "peperone giallo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 59.8182,
+    "id": 967,
+    "modifier_type": null,
+    "name": "tortilla di farina",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 1.72,
+    "id": 970,
+    "modifier_type": null,
+    "name": "cipolla in polvere",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20,
+    "id": 973,
+    "modifier_type": null,
+    "name": "condimento caesar",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 40,
+    "id": 974,
+    "modifier_type": null,
+    "name": "romaine",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 978,
+    "modifier_type": null,
+    "name": "bistecca bistecca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 5,
+    "id": 982,
+    "modifier_type": "oil",
+    "name": "olio di canola",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 72.88,
+    "id": 983,
+    "modifier_type": null,
+    "name": "salsa curry",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 70,
+    "id": 987,
+    "modifier_type": null,
+    "name": "uova di anatra",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 50,
+    "id": 989,
+    "modifier_type": null,
+    "name": "pane bianco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 25,
+    "id": 990,
+    "modifier_type": null,
+    "name": "formaggio americano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 11.94,
+    "id": 993,
+    "modifier_type": null,
+    "name": "aceto di mele",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 1.3,
+    "id": 1000,
+    "modifier_type": null,
+    "name": "seme di cumino",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 168,
+    "id": 1006,
+    "modifier_type": null,
+    "name": "ala di pollo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 26,
+    "id": 1007,
+    "modifier_type": null,
+    "name": "salsa di ala bufala",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 0.19,
+    "id": 1008,
+    "modifier_type": "salt",
+    "name": "sale kosher",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20,
+    "id": 1010,
+    "modifier_type": null,
+    "name": "formaggio di capra",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 44.3,
+    "id": 1012,
+    "modifier_type": null,
+    "name": "patatine tortilla",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 29.175,
+    "id": 1013,
+    "modifier_type": null,
+    "name": "formaggio cheddar",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 55,
+    "id": 1015,
+    "modifier_type": null,
+    "name": "uovo in camicia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 120,
+    "id": 1016,
+    "modifier_type": null,
+    "name": "orecchio di maiale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 6.01,
+    "id": 1017,
+    "modifier_type": null,
+    "name": "aceto bianco",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 66.75,
+    "id": 1018,
+    "modifier_type": null,
+    "name": "riso per sushi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 56.67,
+    "id": 1019,
+    "modifier_type": null,
+    "name": "surimi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 1,
+    "id": 1020,
+    "modifier_type": null,
+    "name": "lievito secco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 5.15,
+    "id": 1021,
+    "modifier_type": null,
+    "name": "latte evaporato",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 54.1667,
+    "id": 1024,
+    "modifier_type": null,
+    "name": "farina di frumento",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1030,
+    "modifier_type": null,
+    "name": "pimento a terra",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.53,
+    "id": 1033,
+    "modifier_type": null,
+    "name": "peperoncino jalapeno",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20,
+    "id": 1037,
+    "modifier_type": null,
+    "name": "yellowtail",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1042,
+    "modifier_type": null,
+    "name": "savoiardi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 25.47,
+    "id": 1047,
+    "modifier_type": null,
+    "name": "ponzu",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 150,
+    "id": 1050,
+    "modifier_type": null,
+    "name": "cavolo in salamoia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1052,
+    "modifier_type": null,
+    "name": "piede del maiale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1053,
+    "modifier_type": null,
+    "name": "bietola",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 89,
+    "id": 1054,
+    "modifier_type": null,
+    "name": "mais dolce",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1056,
+    "modifier_type": null,
+    "name": "muffin inglese",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 54.17,
+    "id": 1058,
+    "modifier_type": null,
+    "name": "rotolo hoagie",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 3.5,
+    "id": 1065,
+    "modifier_type": null,
+    "name": "pesce essiccato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 39.06,
+    "id": 1067,
+    "modifier_type": null,
+    "name": "zucca gialla",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 127,
+    "id": 1068,
+    "modifier_type": null,
+    "name": "suola (intero)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 80,
+    "id": 1072,
+    "modifier_type": null,
+    "name": "cavolo cinese",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 200,
+    "id": 1073,
+    "modifier_type": null,
+    "name": "filetto mignon",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 1.555,
+    "id": 1075,
+    "modifier_type": null,
+    "name": "curry in polvere",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 60,
+    "id": 1078,
+    "modifier_type": null,
+    "name": "salumi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1081,
+    "modifier_type": null,
+    "name": "salsiccia dolce italiano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 160,
+    "id": 1082,
+    "modifier_type": null,
+    "name": "taccole",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 48,
+    "id": 1083,
+    "modifier_type": null,
+    "name": "tortilla di grano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 17.735,
+    "id": 1084,
+    "modifier_type": null,
+    "name": "burro non salato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 72,
+    "id": 1085,
+    "modifier_type": null,
+    "name": "melone amaro",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 45,
+    "id": 1087,
+    "modifier_type": null,
+    "name": "pane integrale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 52.5,
+    "id": 1088,
+    "modifier_type": null,
+    "name": "salmone affumicato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 4.55,
+    "id": 1090,
+    "modifier_type": null,
+    "name": "cioccolato di cottura",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 15,
+    "id": 1096,
+    "modifier_type": null,
+    "name": "pasta di sesamo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 26.6667,
+    "id": 1100,
+    "modifier_type": null,
+    "name": "caramella",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1101,
+    "modifier_type": null,
+    "name": "aceto di vino di riso",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 44.8571,
+    "id": 1103,
+    "modifier_type": null,
+    "name": "pane di farina bianca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 12.8,
+    "id": 1105,
+    "modifier_type": null,
+    "name": "grasso vegetale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 1.8,
+    "id": 1106,
+    "modifier_type": null,
+    "name": "semi di coriandolo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.39,
+    "id": 1108,
+    "modifier_type": null,
+    "name": "semi di finocchio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.8375,
+    "id": 1109,
+    "modifier_type": null,
+    "name": "anice stellato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 13.01,
+    "id": 1112,
+    "modifier_type": null,
+    "name": "aria spuntato popcorn",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 72,
+    "id": 1113,
+    "modifier_type": null,
+    "name": "orecchio di giuda",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 23.0456,
+    "id": 1119,
+    "modifier_type": null,
+    "name": "funghi shiitake",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 7.33333,
+    "id": 1120,
+    "modifier_type": "sugar",
+    "name": "zucchero bianco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 178,
+    "id": 1121,
+    "modifier_type": null,
+    "name": "luffa",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 5,
+    "id": 1123,
+    "modifier_type": null,
+    "name": "aceto di vino bianco",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 2.3,
+    "id": 1124,
+    "modifier_type": null,
+    "name": "paprika affumicata",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 42.5,
+    "id": 1125,
+    "modifier_type": null,
+    "name": "farina di riso",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1130,
+    "modifier_type": null,
+    "name": "panna montata",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1132,
+    "modifier_type": "oil",
+    "name": "olio di arachidi",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 7.5,
+    "id": 1133,
+    "modifier_type": null,
+    "name": "sciroppo di mais",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 200,
+    "id": 1134,
+    "modifier_type": null,
+    "name": "yogurt intero di latte",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 152.767,
+    "id": 1136,
+    "modifier_type": null,
+    "name": "latte d'avena",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 180,
+    "id": 1137,
+    "modifier_type": null,
+    "name": "ali di pollo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1139,
+    "modifier_type": null,
+    "name": "salsa di panna",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1140,
+    "modifier_type": null,
+    "name": "semi di mais",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 22.5,
+    "id": 1142,
+    "modifier_type": null,
+    "name": "formaggio blu",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 36.25,
+    "id": 1143,
+    "modifier_type": null,
+    "name": "cereali da colazione",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1144,
+    "modifier_type": null,
+    "name": "nappa cavolo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1145,
+    "modifier_type": null,
+    "name": "birra scura",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 226.5,
+    "id": 1146,
+    "modifier_type": null,
+    "name": "acqua frizzante",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1148,
+    "modifier_type": "sugar",
+    "name": "zucchero a velo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 32.5,
+    "id": 1151,
+    "modifier_type": null,
+    "name": "cipollotto",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 60,
+    "id": 1153,
+    "modifier_type": null,
+    "name": "pane in cassetta",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1156,
+    "modifier_type": null,
+    "name": "farina di ceci",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1157,
+    "modifier_type": null,
+    "name": "salsa marrone",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 85,
+    "id": 1159,
+    "modifier_type": null,
+    "name": "fegato di vitello",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 14,
+    "id": 1162,
+    "modifier_type": "oil",
+    "name": "olio di semi di girasole",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1163,
+    "modifier_type": null,
+    "name": "garam masala",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1164,
+    "modifier_type": null,
+    "name": "formaggio di pecora",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20,
+    "id": 1166,
+    "modifier_type": null,
+    "name": "cereali di riso",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1169,
+    "modifier_type": null,
+    "name": "marmellata di fragole",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 16,
+    "id": 1171,
+    "modifier_type": null,
+    "name": "crema al cioccolato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1172,
+    "modifier_type": null,
+    "name": "sanguinaccio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 1175,
+    "modifier_type": null,
+    "name": "verdure miste",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 45,
+    "id": 1180,
+    "modifier_type": null,
+    "name": "guacamole",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.8,
+    "id": 1182,
+    "modifier_type": null,
+    "name": "polvere di gelatina",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1183,
+    "modifier_type": null,
+    "name": "burro di cacao",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1184,
+    "modifier_type": null,
+    "name": "pepe",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 32.5,
+    "id": 1185,
+    "modifier_type": null,
+    "name": "pimento",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20.3125,
+    "id": 1186,
+    "modifier_type": null,
+    "name": "cipolla verde",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 2.33,
+    "id": 1187,
+    "modifier_type": null,
+    "name": "jalapeno",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1188,
+    "modifier_type": null,
+    "name": "carne donair",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 63.0933,
+    "id": 1189,
+    "modifier_type": null,
+    "name": "carne macinata",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 93.72,
+    "id": 1190,
+    "modifier_type": null,
+    "name": "carne di agnello a terra",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1192,
+    "modifier_type": null,
+    "name": "foglia di fico",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.873333,
+    "id": 1193,
+    "modifier_type": null,
+    "name": "estratto di vaniglia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1194,
+    "modifier_type": null,
+    "name": "cavolo bianco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 14.3937,
+    "id": 1195,
+    "modifier_type": null,
+    "name": "succo di limone (naturale)",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 33.33,
+    "id": 1196,
+    "modifier_type": null,
+    "name": "formaggio bianco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1199,
+    "modifier_type": null,
+    "name": "castagna d'acqua",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1200,
+    "modifier_type": null,
+    "name": "chile con carne",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1202,
+    "modifier_type": null,
+    "name": "pomodori in scatola",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1204,
+    "modifier_type": null,
+    "name": "peperoncino in polvere",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 113.4,
+    "id": 1205,
+    "modifier_type": null,
+    "name": "hamburger di maiale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1206,
+    "modifier_type": null,
+    "name": "hamburger di maiale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 50,
+    "id": 1207,
+    "modifier_type": null,
+    "name": "hamburger bun",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1210,
+    "modifier_type": null,
+    "name": "insalata russa",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1211,
+    "modifier_type": null,
+    "name": "cetriolini",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1215,
+    "modifier_type": null,
+    "name": "stamppot",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 121.133,
+    "id": 1217,
+    "modifier_type": null,
+    "name": "cavolo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1218,
+    "modifier_type": null,
+    "name": "insalata",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 40,
+    "id": 1219,
+    "modifier_type": null,
+    "name": "romaine",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 15,
+    "id": 1220,
+    "modifier_type": null,
+    "name": "spinaci crudi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1221,
+    "modifier_type": null,
+    "name": "lattuga iceberg",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1222,
+    "modifier_type": null,
+    "name": "foglia di lattuga",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 90,
+    "id": 1223,
+    "modifier_type": null,
+    "name": "rosso cavolo crudo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1224,
+    "modifier_type": null,
+    "name": "carote crude",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1225,
+    "modifier_type": null,
+    "name": "grano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1226,
+    "modifier_type": null,
+    "name": "brodo di manzo",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 5,
+    "id": 1227,
+    "modifier_type": null,
+    "name": "basilico secco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 2,
+    "id": 1228,
+    "modifier_type": null,
+    "name": "origano secco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 1,
+    "id": 1229,
+    "modifier_type": null,
+    "name": "rosmarino essiccato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 1,
+    "id": 1230,
+    "modifier_type": null,
+    "name": "maggiorana essiccata",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 1,
+    "id": 1231,
+    "modifier_type": null,
+    "name": "ajedrea secca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 17.28,
+    "id": 1232,
+    "modifier_type": null,
+    "name": "noccioline",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 60,
+    "id": 1233,
+    "modifier_type": null,
+    "name": "cornetto",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 84,
+    "id": 1234,
+    "modifier_type": null,
+    "name": "cono dello zucchero",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 104,
+    "id": 1235,
+    "modifier_type": null,
+    "name": "luce congelata",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 37.5,
+    "id": 1236,
+    "modifier_type": null,
+    "name": "salsa di cioccolato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1240,
+    "modifier_type": null,
+    "name": "fiocchi d'avena",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.05,
+    "id": 1241,
+    "modifier_type": null,
+    "name": "mazza a terra",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30.8,
+    "id": 1242,
+    "modifier_type": null,
+    "name": "avena",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1243,
+    "modifier_type": null,
+    "name": "crusca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 19,
+    "id": 1245,
+    "modifier_type": null,
+    "name": "pumpkinseed",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 4.66667,
+    "id": 1246,
+    "modifier_type": null,
+    "name": "seme di lino",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1247,
+    "modifier_type": null,
+    "name": "grande uovo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 25.4,
+    "id": 1248,
+    "modifier_type": null,
+    "name": "bordo della torta",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20,
+    "id": 1249,
+    "modifier_type": null,
+    "name": "matzo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1250,
+    "modifier_type": null,
+    "name": "muesli",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1251,
+    "modifier_type": null,
+    "name": "pan di zenzero",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 12.86,
+    "id": 1252,
+    "modifier_type": null,
+    "name": "cibi grassi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1253,
+    "modifier_type": null,
+    "name": "pasta di pandan",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 8.99,
+    "id": 1254,
+    "modifier_type": "oil",
+    "name": "olio di cocco",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 180,
+    "id": 1255,
+    "modifier_type": null,
+    "name": "aringa",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 18,
+    "id": 1256,
+    "modifier_type": null,
+    "name": "panna",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 2.35,
+    "id": 1257,
+    "modifier_type": null,
+    "name": "tabasco",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 17.55,
+    "id": 1260,
+    "modifier_type": "sugar",
+    "name": "zucchero di canna",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 15.8333,
+    "id": 1262,
+    "modifier_type": null,
+    "name": "sciroppo",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 113.33,
+    "id": 1263,
+    "modifier_type": null,
+    "name": "kielbasa",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 123.6,
+    "id": 1264,
+    "modifier_type": null,
+    "name": "brodo di pollo",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 80,
+    "id": 1265,
+    "modifier_type": null,
+    "name": "crauti",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 4,
+    "id": 1268,
+    "modifier_type": null,
+    "name": "luce congelata",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 187.083,
+    "id": 1269,
+    "modifier_type": null,
+    "name": "acqua gassata",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 72,
+    "id": 1272,
+    "modifier_type": null,
+    "name": "gelato alla fragola",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 5,
+    "id": 1273,
+    "modifier_type": null,
+    "name": "ciliegie al maraschino",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 300,
+    "id": 1274,
+    "modifier_type": null,
+    "name": "emorragia",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 248.667,
+    "id": 1275,
+    "modifier_type": null,
+    "name": "succo d'arancia (zuccheri aggiunti)",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1276,
+    "modifier_type": null,
+    "name": "triple sec",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 60,
+    "id": 1278,
+    "modifier_type": null,
+    "name": "acqua gassata",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1279,
+    "modifier_type": null,
+    "name": "chufa",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 50,
+    "id": 1280,
+    "modifier_type": null,
+    "name": "campari",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 1281,
+    "modifier_type": null,
+    "name": "vermut",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1283,
+    "modifier_type": null,
+    "name": "bevanda probiotica",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1284,
+    "modifier_type": null,
+    "name": "latte in polvere",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 240,
+    "id": 1285,
+    "modifier_type": null,
+    "name": "energy drink",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 163.33,
+    "id": 1286,
+    "modifier_type": null,
+    "name": "tè verde",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1287,
+    "modifier_type": null,
+    "name": "macedonia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 90,
+    "id": 1289,
+    "modifier_type": null,
+    "name": "lychee",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 80,
+    "id": 1290,
+    "modifier_type": null,
+    "name": "crescione",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 60,
+    "id": 1291,
+    "modifier_type": null,
+    "name": "nespola",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1292,
+    "modifier_type": null,
+    "name": "chia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1293,
+    "modifier_type": null,
+    "name": "canone",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 235,
+    "id": 1294,
+    "modifier_type": null,
+    "name": "crema di mele",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 0.07,
+    "id": 1295,
+    "modifier_type": null,
+    "name": "odori",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 198,
+    "id": 1296,
+    "modifier_type": null,
+    "name": "pitaya",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 76,
+    "id": 1297,
+    "modifier_type": null,
+    "name": "mangostano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 11.78,
+    "id": 1298,
+    "modifier_type": null,
+    "name": "le bacche di goji",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1299,
+    "modifier_type": null,
+    "name": "tamari",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1300,
+    "modifier_type": null,
+    "name": "pepe poblano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1301,
+    "modifier_type": null,
+    "name": "pepe aleppo",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 7.71,
+    "id": 1303,
+    "modifier_type": null,
+    "name": "formaggio monterey jack",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 133.333,
+    "id": 1304,
+    "modifier_type": null,
+    "name": "boniato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 175,
+    "id": 1305,
+    "modifier_type": null,
+    "name": "pesce bianco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 50,
+    "id": 1306,
+    "modifier_type": null,
+    "name": "yam",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1307,
+    "modifier_type": null,
+    "name": "biscotto al cioccolato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1308,
+    "modifier_type": null,
+    "name": "nasi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30.38,
+    "id": 1309,
+    "modifier_type": null,
+    "name": "pasta secca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 52.2222,
+    "id": 1310,
+    "modifier_type": null,
+    "name": "pane pita",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1311,
+    "modifier_type": null,
+    "name": "pasta senza glutine",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1312,
+    "modifier_type": null,
+    "name": "pasta integrale",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1313,
+    "modifier_type": null,
+    "name": "pasta di lentil",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1314,
+    "modifier_type": null,
+    "name": "spruzzi di cioccolato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1315,
+    "modifier_type": null,
+    "name": "succo di mela (zuccheri aggiunti)",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 35,
+    "id": 1316,
+    "modifier_type": null,
+    "name": "pastrami",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 35,
+    "id": 1317,
+    "modifier_type": null,
+    "name": "cecina",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1318,
+    "modifier_type": null,
+    "name": "brodo vegetale basso sodio",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 21.4086,
+    "id": 1319,
+    "modifier_type": null,
+    "name": "latte al cioccolato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 80,
+    "id": 1320,
+    "modifier_type": null,
+    "name": "proteine di soia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1321,
+    "modifier_type": null,
+    "name": "succo di carota (naturale)",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1322,
+    "modifier_type": null,
+    "name": "succo di pomodoro (naturale)",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1323,
+    "modifier_type": null,
+    "name": "salame",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 173,
+    "id": 1324,
+    "modifier_type": null,
+    "name": "yuca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 50,
+    "id": 1325,
+    "modifier_type": null,
+    "name": "pane di farro",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 17.5,
+    "id": 1326,
+    "modifier_type": null,
+    "name": "marmellata senza zucchero",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 1327,
+    "modifier_type": null,
+    "name": "gelatina senza zucchero",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 35,
+    "id": 1328,
+    "modifier_type": null,
+    "name": "cereali di mais fiocchi",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 35,
+    "id": 1329,
+    "modifier_type": null,
+    "name": "distribuzione al cioccolato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 25,
+    "id": 1330,
+    "modifier_type": null,
+    "name": "nessun burro di arachidi aggiunto zucchero",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 125,
+    "id": 1331,
+    "modifier_type": null,
+    "name": "yogurt greco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 125,
+    "id": 1332,
+    "modifier_type": null,
+    "name": "yogurt leggero",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 25,
+    "id": 1333,
+    "modifier_type": null,
+    "name": "noci brasiliane",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 130,
+    "id": 1334,
+    "modifier_type": null,
+    "name": "latte di soia",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1335,
+    "modifier_type": null,
+    "name": "latte di mandorla",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 125,
+    "id": 1336,
+    "modifier_type": null,
+    "name": "yogurt di frutta",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 86.6667,
+    "id": 1337,
+    "modifier_type": null,
+    "name": "tortellini",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 97.8571,
+    "id": 1338,
+    "modifier_type": null,
+    "name": "ravioli",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1339,
+    "modifier_type": null,
+    "name": "pane tostato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 35,
+    "id": 1340,
+    "modifier_type": null,
+    "name": "crema pasticcera",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1341,
+    "modifier_type": null,
+    "name": "mango secco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1342,
+    "modifier_type": null,
+    "name": "pesca secca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1343,
+    "modifier_type": null,
+    "name": "prugna secca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1344,
+    "modifier_type": null,
+    "name": "banana secca",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1345,
+    "modifier_type": null,
+    "name": "orzata",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 67,
+    "id": 1346,
+    "modifier_type": null,
+    "name": "falafel",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 200,
+    "id": 1347,
+    "modifier_type": null,
+    "name": "cardoon",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1348,
+    "modifier_type": null,
+    "name": "prosciutto di tacchino",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1349,
+    "modifier_type": null,
+    "name": "cappuccino",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1350,
+    "modifier_type": null,
+    "name": "caffé irlandese",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1351,
+    "modifier_type": null,
+    "name": "americano",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1352,
+    "modifier_type": null,
+    "name": "moka",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 187.5,
+    "id": 1353,
+    "modifier_type": null,
+    "name": "succo d'uva (naturale)",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1354,
+    "modifier_type": null,
+    "name": "tonico",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 330,
+    "id": 1355,
+    "modifier_type": null,
+    "name": "gatorade",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 330,
+    "id": 1356,
+    "modifier_type": null,
+    "name": "michelada",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 330,
+    "id": 1357,
+    "modifier_type": null,
+    "name": "diet coke",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 330,
+    "id": 1358,
+    "modifier_type": null,
+    "name": "zero coca",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 200,
+    "id": 1359,
+    "modifier_type": null,
+    "name": "bloody mary",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1360,
+    "modifier_type": null,
+    "name": "kombucha",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 87.5,
+    "id": 1361,
+    "modifier_type": null,
+    "name": "kefir",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 87.3333,
+    "id": 1362,
+    "modifier_type": null,
+    "name": "formaggio mela cotogna",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 177,
+    "id": 1363,
+    "modifier_type": null,
+    "name": "kiwano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1364,
+    "modifier_type": null,
+    "name": "tè alle erbe",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1365,
+    "modifier_type": null,
+    "name": "latte scremato",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1366,
+    "modifier_type": null,
+    "name": "latte parzialmente scremato",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1367,
+    "modifier_type": null,
+    "name": "pate d'anatra",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1368,
+    "modifier_type": null,
+    "name": "tonno patè",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1369,
+    "modifier_type": null,
+    "name": "latte di soia non zuccherato",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1370,
+    "modifier_type": null,
+    "name": "latte di mandorle non zuccherato",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 20,
+    "id": 1371,
+    "modifier_type": null,
+    "name": "salsa di soia a basso contenuto di soia",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 40,
+    "id": 1372,
+    "modifier_type": null,
+    "name": "cipolla decapato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 37.5,
+    "id": 1373,
+    "modifier_type": null,
+    "name": "crema pesante",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 36.5,
+    "id": 1374,
+    "modifier_type": null,
+    "name": "crema leggera",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1375,
+    "modifier_type": null,
+    "name": "banana fritta",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1376,
+    "modifier_type": null,
+    "name": "succo di frutta (zuccheri aggiunti)",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 150,
+    "id": 1377,
+    "modifier_type": null,
+    "name": "negroni",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 330,
+    "id": 1378,
+    "modifier_type": null,
+    "name": "shandy",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 25,
+    "id": 1379,
+    "modifier_type": null,
+    "name": "cracker multigrain",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 60.7143,
+    "id": 1380,
+    "modifier_type": null,
+    "name": "può tonno",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 65,
+    "id": 1381,
+    "modifier_type": null,
+    "name": "tonno in scatola in olio",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20,
+    "id": 1382,
+    "modifier_type": null,
+    "name": "marmellata",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 330,
+    "id": 1383,
+    "modifier_type": null,
+    "name": "nestea",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 1384,
+    "modifier_type": null,
+    "name": "süße cava",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 1385,
+    "modifier_type": null,
+    "name": "trockene cava",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 1386,
+    "modifier_type": null,
+    "name": "cava brut",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 80,
+    "id": 1387,
+    "modifier_type": null,
+    "name": "herzmuscheln",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1388,
+    "modifier_type": null,
+    "name": "kandierte melone",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1389,
+    "modifier_type": null,
+    "name": "getrocknete kakis",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 200,
+    "id": 1390,
+    "modifier_type": null,
+    "name": "yogurt liquido zuccherato",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 200,
+    "id": 1391,
+    "modifier_type": null,
+    "name": "yogurt liquido aromatizzato",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1392,
+    "modifier_type": null,
+    "name": "succo d'ananas (naturale)",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 85.7175,
+    "id": 1393,
+    "modifier_type": null,
+    "name": "succo d'arancia (naturale)",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 20,
+    "id": 1394,
+    "modifier_type": null,
+    "name": "cracker senza glutine",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 200,
+    "id": 1395,
+    "modifier_type": null,
+    "name": "latte di riso non zuccherato",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1396,
+    "modifier_type": null,
+    "name": "biscotti maria non zuccherati",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1397,
+    "modifier_type": null,
+    "name": "biscotti integrali",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1398,
+    "modifier_type": null,
+    "name": "kiwi secco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 200,
+    "id": 1399,
+    "modifier_type": null,
+    "name": "horchata non zuccherato",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 330,
+    "id": 1400,
+    "modifier_type": null,
+    "name": "aquarius",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 330,
+    "id": 1401,
+    "modifier_type": null,
+    "name": "birra analcolica",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 125,
+    "id": 1402,
+    "modifier_type": null,
+    "name": "rana",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 80,
+    "id": 1403,
+    "modifier_type": null,
+    "name": "champignon",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 330,
+    "id": 1404,
+    "modifier_type": null,
+    "name": "shandy analcolico",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 330,
+    "id": 1405,
+    "modifier_type": null,
+    "name": "aranciata non zuccherata",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 45,
+    "id": 1406,
+    "modifier_type": null,
+    "name": "prosciutto serrano",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1407,
+    "modifier_type": null,
+    "name": "barretta energetica",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 25,
+    "id": 1408,
+    "modifier_type": null,
+    "name": "barretta di cereali",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 50,
+    "id": 1409,
+    "modifier_type": null,
+    "name": "croissant",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 70,
+    "id": 1410,
+    "modifier_type": null,
+    "name": "fagioli neri",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 80,
+    "id": 1411,
+    "modifier_type": null,
+    "name": "sardine in scatola",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 50,
+    "id": 1412,
+    "modifier_type": null,
+    "name": "crema di whisky",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1413,
+    "modifier_type": null,
+    "name": "limoncello",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 100,
+    "id": 1414,
+    "modifier_type": null,
+    "name": "vino da dessert",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 50,
+    "id": 1415,
+    "modifier_type": null,
+    "name": "pisco",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1416,
+    "modifier_type": null,
+    "name": "grappa",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1417,
+    "modifier_type": null,
+    "name": "pane alle noci",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 125,
+    "id": 1418,
+    "modifier_type": null,
+    "name": "flan",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 105,
+    "id": 1419,
+    "modifier_type": null,
+    "name": "churros",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 66,
+    "id": 1420,
+    "modifier_type": null,
+    "name": "gelato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 50,
+    "id": 1421,
+    "modifier_type": null,
+    "name": "croissant al burro",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1422,
+    "modifier_type": null,
+    "name": "cupcake",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 80,
+    "id": 1423,
+    "modifier_type": null,
+    "name": "brownie",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 81,
+    "id": 1424,
+    "modifier_type": null,
+    "name": "profiteroles",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 40,
+    "id": 1425,
+    "modifier_type": null,
+    "name": "pancake",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 52,
+    "id": 1426,
+    "modifier_type": null,
+    "name": "donut",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 60,
+    "id": 1427,
+    "modifier_type": null,
+    "name": "donut al cioccolato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 40,
+    "id": 1428,
+    "modifier_type": null,
+    "name": "torrone",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 72,
+    "id": 1429,
+    "modifier_type": null,
+    "name": "croissant al cioccolato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 50,
+    "id": 1430,
+    "modifier_type": null,
+    "name": "crep",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1431,
+    "modifier_type": null,
+    "name": "torta al cioccolato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 33,
+    "id": 1432,
+    "modifier_type": null,
+    "name": "cannoli",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1433,
+    "modifier_type": null,
+    "name": "torta di carote",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 20,
+    "id": 1434,
+    "modifier_type": null,
+    "name": "macaron",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1435,
+    "modifier_type": null,
+    "name": "pizza",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 28,
+    "id": 1436,
+    "modifier_type": null,
+    "name": "impasto per pizza",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 44,
+    "id": 1437,
+    "modifier_type": null,
+    "name": "panellet",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 40,
+    "id": 1438,
+    "modifier_type": null,
+    "name": "brioche",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 150,
+    "id": 1439,
+    "modifier_type": null,
+    "name": "torta red velvet",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1440,
+    "modifier_type": null,
+    "name": "scone",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1441,
+    "modifier_type": null,
+    "name": "crumble di mele",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 150,
+    "id": 1442,
+    "modifier_type": null,
+    "name": "nachos",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1443,
+    "modifier_type": null,
+    "name": "tequeños",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1444,
+    "modifier_type": null,
+    "name": "arepas",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1445,
+    "modifier_type": null,
+    "name": "ropa vieja",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1446,
+    "modifier_type": null,
+    "name": "polpette",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1447,
+    "modifier_type": null,
+    "name": "nuggets",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1448,
+    "modifier_type": null,
+    "name": "pretzel",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 40,
+    "id": 1449,
+    "modifier_type": null,
+    "name": "cheetos",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 40,
+    "id": 1450,
+    "modifier_type": null,
+    "name": "pringles",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1451,
+    "modifier_type": null,
+    "name": "chistorra",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 40,
+    "id": 1452,
+    "modifier_type": null,
+    "name": "romesco",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1453,
+    "modifier_type": "sugar",
+    "name": "panela",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 150,
+    "id": 1454,
+    "modifier_type": null,
+    "name": "calçots",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 30,
+    "id": 1455,
+    "modifier_type": null,
+    "name": "mate",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1456,
+    "modifier_type": null,
+    "name": "succo di mela (naturale)",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 250,
+    "id": 1457,
+    "modifier_type": null,
+    "name": "succo di frutta (naturale)",
+    "state": "liquid",
+    "unit": "ml"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1458,
+    "modifier_type": null,
+    "name": "yogurt gelato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1459,
+    "modifier_type": null,
+    "name": "ensaimada",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 122.5,
+    "id": 1460,
+    "modifier_type": null,
+    "name": "cagliata",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 8.88,
+    "id": 1461,
+    "modifier_type": null,
+    "name": "cracker non salati",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 150,
+    "id": 1462,
+    "modifier_type": null,
+    "name": "sedano rapa",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 150,
+    "id": 1463,
+    "modifier_type": null,
+    "name": "gelato alla vaniglia",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 150,
+    "id": 1464,
+    "modifier_type": null,
+    "name": "gelato al cioccolato",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 70,
+    "id": 1465,
+    "modifier_type": null,
+    "name": "ventresca di tonno in olio d'oliva",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1466,
+    "modifier_type": null,
+    "name": "gamberetto (senza guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1467,
+    "modifier_type": null,
+    "name": "mango (senza buccia, snocciolato)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1468,
+    "modifier_type": null,
+    "name": "pistacchio (senza guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1469,
+    "modifier_type": null,
+    "name": "ananas (senza buccia)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1470,
+    "modifier_type": null,
+    "name": "carciofi (pelato)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1471,
+    "modifier_type": null,
+    "name": "castanea (senza guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1472,
+    "modifier_type": null,
+    "name": "gambero (senza guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1473,
+    "modifier_type": null,
+    "name": "sgombro (lombo)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1474,
+    "modifier_type": null,
+    "name": "albicocca (sbucciata e snocciolata)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1475,
+    "modifier_type": null,
+    "name": "aragosta (pelata)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1476,
+    "modifier_type": null,
+    "name": "pettine (senza guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1477,
+    "modifier_type": null,
+    "name": "sardine (lombi)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1478,
+    "modifier_type": null,
+    "name": "pollo (disossato)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1479,
+    "modifier_type": null,
+    "name": "noce di cocco (sgusciato)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1480,
+    "modifier_type": null,
+    "name": "avocado (sbucciato, senza osso)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1481,
+    "modifier_type": null,
+    "name": "cozze (senza guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1482,
+    "modifier_type": null,
+    "name": "tacchino (senza ossa)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1483,
+    "modifier_type": null,
+    "name": "ostrica (senza guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1484,
+    "modifier_type": null,
+    "name": "banana (senza buccia)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1485,
+    "modifier_type": null,
+    "name": "arancia (sbucciata)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1486,
+    "modifier_type": null,
+    "name": "noce (senza guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1487,
+    "modifier_type": null,
+    "name": "vongole (senza guscio)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1488,
+    "modifier_type": null,
+    "name": "olive (senza nocciolo)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1489,
+    "modifier_type": null,
+    "name": "trota (lombi)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1490,
+    "modifier_type": null,
+    "name": "mandarino (sbucciato)",
+    "state": "solid",
+    "unit": "g"
+  },
+  {
+    "avgQuantity": 10,
+    "id": 1491,
+    "modifier_type": null,
+    "name": "suola (lombi)",
+    "state": "solid",
+    "unit": "g"
+  }
+]

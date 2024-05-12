@@ -23,10 +23,9 @@ const login = async (req, res) => {
 
     if (!user) {
         //User don't exist, create it
-        //Create new user and assign a secret for OTP
+        //Create new user
         user = new User({
-            email,
-            sharedSecret: crypto.randomBytes(32).toString("hex")
+            email
         });
         await user.save()
     }

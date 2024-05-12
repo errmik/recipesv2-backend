@@ -1,0 +1,11 @@
+{
+  "cat": "catalan",
+  "eng": "english",
+  "fre": "french",
+  "ger": "german",
+  "gre": "greek",
+  "ita": "italian",
+  "nld": "dutch",
+  "spa": "spanish",
+  "tur": "turkish"
+}

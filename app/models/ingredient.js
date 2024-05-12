@@ -1,9 +1,37 @@
 import mongoose, { Schema as Schema, model } from 'mongoose';
 
 const IngredientSchema = new Schema({
-    name: { type: String, required: true },
     alcoholic: { type: Boolean, default: false },
-    description: {type: String, required: false},
+    name: {
+        fr: { type: String },
+        en: { type: String },
+        es: { type: String },
+        ca: { type: String },
+        de: { type: String },
+        el: { type: String },
+        it: { type: String },
+        nl: { type: String },
+        tr: { type: String },
+        pt: { type: String },
+        eu: { type: String },
+        ru: { type: String },
+        zh: { type: String },
+    },
+    description: {
+        fr: { type: String },
+        en: { type: String },
+        es: { type: String },
+        ca: { type: String },
+        de: { type: String },
+        el: { type: String },
+        it: { type: String },
+        nl: { type: String },
+        tr: { type: String },
+        pt: { type: String },
+        eu: { type: String },
+        ru: { type: String },
+        zh: { type: String },
+    },
     createdDate: { type: Date, default: Date.now }
 });
 

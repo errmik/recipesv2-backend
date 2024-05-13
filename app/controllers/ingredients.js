@@ -10,7 +10,7 @@ import searchConstants from '../constants/search.js'
 
 const getAllIngredients = async (req, res) => {
 
-    var { lang } = req.params
+    var { lang } = req.query
 
     if (!lang)
         lang = langConstants.DEFAULT_LANG
@@ -22,7 +22,7 @@ const getAllIngredients = async (req, res) => {
 
 const getIngredients = async (req, res) => {
 
-    var { lang, page, limit } = req.params
+    var { lang, page, limit } = req.query
 
     if (!lang)
         lang = langConstants.DEFAULT_LANG

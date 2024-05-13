@@ -12,7 +12,7 @@ const getAllIngredients = async (req, res) => {
     let totalHits = await Ingredient.estimatedDocumentCount({});
     const ingredients = await Ingredient.find({}).exec();
 
-    res.status(StatusCodes.OK).json({ ingredients })
+    res.status(StatusCodes.OK).json(ingredients)
 }
 
 const searchIngredients = async (req, res) => {
@@ -33,7 +33,7 @@ const searchIngredients = async (req, res) => {
             }
         },
         { $limit: 12 },
-        { $project: { _id: 1, [`name.${lang}`] : 1 } }
+        { $project: { _id: 1, [`name.${lang}`]: 1 } }
     ];
 
     var results = await Ingredient.aggregate(pipeline).exec();
@@ -59,7 +59,7 @@ const autocompleteIngredients = async (req, res) => {
             }
         },
         { $limit: 12 },
-        { $project: { _id: 1, [`name.${lang}`] : 1 } }
+        { $project: { _id: 1, [`name.${lang}`]: 1 } }
         //{ $project: { _id: 1, [`name.${lang}`]: 1 } }
     ];
 

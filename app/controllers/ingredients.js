@@ -15,6 +15,59 @@ const getAllIngredients = async (req, res) => {
     res.status(StatusCodes.OK).json({ ingredients })
 }
 
+const searchIngredients = async (req, res) => {
+
+    var { text, lang } = req.body
+
+    let pipeline = [
+        {
+            $search: {
+                index: "ingredients_search_index",
+                text: {
+                    query: text,
+                    path: `name.${lang}`,
+                    // fuzzy: {
+                    //     maxEdits: 2
+                    // }
+                }
+            }
+        },
+        { $limit: 12 },
+        { $project: { _id: 1, [`name.${lang}`] : 1 } }
+    ];
+
+    var results = await Ingredient.aggregate(pipeline).exec();
+
+    res.status(StatusCodes.OK).json(results)
+}
+
+const autocompleteIngredients = async (req, res) => {
+
+    var { text, lang } = req.body
+
+    let pipeline = [
+        {
+            $search: {
+                index: "ingredients_search_index",
+                autocomplete: {
+                    query: text,
+                    path: `name.${lang}`,
+                    // fuzzy: {
+                    //     maxEdits: 2
+                    // }
+                }
+            }
+        },
+        { $limit: 12 },
+        { $project: { _id: 1, [`name.${lang}`] : 1 } }
+        //{ $project: { _id: 1, [`name.${lang}`]: 1 } }
+    ];
+
+    var results = await Ingredient.aggregate(pipeline).exec();
+
+    res.status(StatusCodes.OK).json({ results })
+}
+
 const getIngredient = async (req, res) => {
 
     const ingredientId = req.params.id;
@@ -64,4 +117,4 @@ const deleteIngredient = async (req, res) => {
     res.status(StatusCodes.OK).json({ ingredient })
 }
 
-export { getAllIngredients, getIngredient, createIngredient, updateIngredient, deleteIngredient }
+export { getAllIngredients, searchIngredients, autocompleteIngredients, getIngredient, createIngredient, updateIngredient, deleteIngredient }

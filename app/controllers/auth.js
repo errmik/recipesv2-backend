@@ -3,7 +3,6 @@ import { User } from "../models/user.js";
 import { LoginToken } from "../models/loginToken.js";
 import { BadRequestError, UnauthorizedError, EmailError } from "../errors/customError.js";
 import { sendLoginVerificationMail } from '../mail/mailer.js'
-import crypto from 'crypto';
 import jwt from 'jsonwebtoken';
 import otpGenerator from 'otp-generator'
 

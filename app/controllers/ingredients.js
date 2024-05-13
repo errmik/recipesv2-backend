@@ -26,7 +26,7 @@ const getIngredients = async (req, res) => {
 
     if (!lang)
         lang = langConstants.DEFAULT_LANG
-    
+
     if (!page)
         page = 1
 
@@ -36,7 +36,13 @@ const getIngredients = async (req, res) => {
     let totalHits = await Ingredient.countDocuments({});
     const ingredients = await Ingredient.find({}).skip((page - 1) * limit).limit(limit).select(`name.${lang}`).exec();
 
-    res.status(StatusCodes.OK).json(ingredients)
+    res.status(StatusCodes.OK).json({
+        totalHits,
+        page,
+        from: (page - 1) * limit,
+        to: ingredients.length - 1,
+        ingredients
+    })
 }
 
 const searchIngredients = async (req, res) => {
@@ -141,4 +147,4 @@ const deleteIngredient = async (req, res) => {
     res.status(StatusCodes.OK).json({ ingredient })
 }
 
-export { getAllIngredients, searchIngredients, autocompleteIngredients, getIngredient, createIngredient, updateIngredient, deleteIngredient }
+export { getAllIngredients, getIngredients, searchIngredients, autocompleteIngredients, getIngredient, createIngredient, updateIngredient, deleteIngredient }

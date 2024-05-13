@@ -40,7 +40,7 @@ const getIngredients = async (req, res) => {
         totalHits,
         page,
         from: (page - 1) * limit,
-        to: ingredients.length - 1,
+        to: (page - 1) * limit + ingredients.length - 1,
         ingredients
     })
 }

@@ -3,14 +3,17 @@ import { auth as authMiddleware } from '../middleware/auth.js';
 
 const router = express.Router();
 
-import { getAllIngredients, searchIngredients, autocompleteIngredients, getIngredient, createIngredient, updateIngredient, deleteIngredient } from '../controllers/ingredients.js'
+import { getAllIngredients, getIngredients, searchIngredients, autocompleteIngredients, getIngredient, createIngredient, updateIngredient, deleteIngredient } from '../controllers/ingredients.js'
 
 //All 'get' actions don't need to be authenticated
 //All other actions (the ones that make modifications to the db) need to be authenticated
 
 router.route('/')
-    .get(getAllIngredients)
+    .get(getIngredients)
     .post(authMiddleware, createIngredient);
+
+router.route('/all')
+    .get(getAllIngredients)
 
 router.route('/search')
     .post(searchIngredients);

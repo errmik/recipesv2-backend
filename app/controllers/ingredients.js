@@ -2,15 +2,39 @@ import { StatusCodes } from 'http-status-codes'
 import moment from 'moment'
 import { Ingredient } from "../models/ingredient.js"
 import { NotFoundError } from '../errors/customError.js'
+import langConstants from '../constants/lang.js'
+import searchConstants from '../constants/search.js'
 
 //async try catch managed by package 'express-async-errors' in all controllers
 //all custom errors (explicitely thrown) or runtime errors are handled by the error management middleware
 
 const getAllIngredients = async (req, res) => {
 
-    //estimatedDocumentCount will ignore the query object
-    let totalHits = await Ingredient.estimatedDocumentCount({});
-    const ingredients = await Ingredient.find({}).exec();
+    var { lang } = req.params
+
+    if (!lang)
+        lang = langConstants.DEFAULT_LANG
+
+    const ingredients = await Ingredient.find({}).select(`name.${lang}`).exec();
+
+    res.status(StatusCodes.OK).json(ingredients)
+}
+
+const getIngredients = async (req, res) => {
+
+    var { lang, page, limit } = req.params
+
+    if (!lang)
+        lang = langConstants.DEFAULT_LANG
+    
+    if (!page)
+        page = 1
+
+    if (!limit)
+        limit = searchConstants.DEFAULT_LIMIT
+
+    let totalHits = await Ingredient.countDocuments({});
+    const ingredients = await Ingredient.find({}).skip((page - 1) * limit).limit(limit).select(`name.${lang}`).exec();
 
     res.status(StatusCodes.OK).json(ingredients)
 }

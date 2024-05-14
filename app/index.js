@@ -71,5 +71,6 @@ const start = async () => {
 
 start();
 
+export { app }
 //https://stackoverflow.com/questions/61305997/how-to-implement-recipes-in-mongodb-mongoose
 //https://dev.to/cyberwolves/how-to-verify-user-email-in-node-express-eaj

@@ -9,6 +9,7 @@ import {
 import { sendLoginVerificationMail } from "../mail/mailer.js";
 import jwt from "jsonwebtoken";
 import otpGenerator from "otp-generator";
+import errorCodes from "../constants/errorCodes.js";
 
 //TODO : rate limiting on all those controller
 //implement lock account
@@ -18,13 +19,16 @@ const login = async (req, res) => {
   const { email } = req.body;
 
   if (!email) {
-    throw new BadRequestError("Please provide email");
+    throw new BadRequestError(
+      "Please provide email",
+      errorCodes.USER_NOT_FOUND
+    );
   }
 
   let user = await User.findOne({ email }).exec();
 
   if (!user) {
-    throw new BadRequestError("User not found");
+    throw new BadRequestError("User not found", errorCodes.USER_NOT_FOUND);
   }
 
   manageOtp(user);
@@ -72,7 +76,7 @@ const signup = async (req, res) => {
   });
 };
 
-const verififyOtp = async (req, res) => {
+const verifyOtp = async (req, res) => {
   const { email, otp } = req.body;
 
   if (!email || !otp) {
@@ -264,4 +268,4 @@ const manageOtp = async (user) => {
   }
 };
 
-export { login, signup, verififyOtp, refreshToken, logOut };
+export { login, signup, verifyOtp, refreshToken, logOut };

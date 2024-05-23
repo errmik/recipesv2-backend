@@ -2,7 +2,7 @@ import express from "express";
 const router = express.Router();
 
 import {
-  verififyOtp,
+  verifyOtp,
   login,
   signup,
   refreshToken,
@@ -11,7 +11,7 @@ import {
 
 router.post("/signup", signup);
 router.post("/login", login);
-router.post("/verify", verififyOtp);
+router.post("/verify", verifyOtp);
 router.get("/refreshToken", refreshToken);
 router.get("/logout", logOut);
 

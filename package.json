@@ -1,0 +1,50 @@
+{
+  "name": "recipes-backend-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "nodemon dist/index.js",
+    "clean": "tscx --remove",
+    "copyfiles": "tscx --copyfiles",
+    "build": "tsc",
+    "prestart": "npm run clean && npm run build && npm run copyfiles",
+    "start": "node dist/index.js",
+    "predev": "npm run clean && npm run build && npm run copyfiles",
+    "dev": "node --env-file=.env.development.local dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rnm/tscx": "^0.1.3",
+    "@types/bcryptjs": "^2.4.6",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "deepl-node": "^1.13.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.3.1",
+    "mustache": "^4.2.0",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "otp-generator": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/mustache": "^4.2.5",
+    "@types/nodemailer": "^6.4.15",
+    "@types/otp-generator": "^4.0.2",
+    "typescript": "^5.4.5"
+  }
+}

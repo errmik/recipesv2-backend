@@ -32,7 +32,7 @@ const login = async (req: Request, res: Response) => {
     throw new BadRequestError("User not found", errorCodes.USER_NOT_FOUND);
   }
 
-  manageOtp(user);
+  await manageOtp(user);
 
   res.status(StatusCodes.OK).json({
     status: "mailsent",

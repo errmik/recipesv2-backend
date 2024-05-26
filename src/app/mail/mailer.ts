@@ -40,7 +40,8 @@ const sendMail = async (mailOptions: Options) => {
 };
 
 const sendLoginVerificationMail = async (user: IUser, otp: string) => {
-  var result = await transformTemplate("./templates/loginVerification.html", {
+  //Pass just the filename, files are considered to be in the same directory as the transformTemplate function
+  var result = await transformTemplate("loginVerification.html", {
     FirstName: user.name,
     OTP: otp,
   });

@@ -20,6 +20,7 @@
   "dependencies": {
     "@rnm/tscx": "^0.1.3",
     "@types/bcryptjs": "^2.4.6",
+    "axios": "^1.7.2",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",

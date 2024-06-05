@@ -1,0 +1,5 @@
+export default Object.freeze({
+  OTP_SENT: "OTP_SENT",
+  OTP_VERIFIED: "OTP_VERIFIED",
+  LOGGED_IN_WITH_GITHUB: "LOGGED_IN_WITH_GITHUB",
+});

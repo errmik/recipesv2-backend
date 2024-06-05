@@ -9,6 +9,8 @@ interface IUser extends mongoose.Document {
   phoneVerified: boolean;
   sharedSecret?: string;
   refreshToken?: string;
+  avatar?: string;
+  blocked?: boolean;
 }
 
 // Put all user instance methods in this interface:
@@ -58,6 +60,14 @@ const UserSchema = new mongoose.Schema<IUser, UserModel, IUserMethods>({
     type: String,
     required: false,
   },
+  avatar: {
+    type: String,
+    required: false,
+  },
+  blocked: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 // UserSchema.method("fullName", function fullName() {
@@ -66,7 +76,12 @@ const UserSchema = new mongoose.Schema<IUser, UserModel, IUserMethods>({
 
 UserSchema.methods.createAccessToken = function () {
   return jwt.sign(
-    { userId: this._id, name: this.name, email: this.email },
+    {
+      userId: this._id,
+      name: this.name,
+      email: this.email,
+      avatar: this.avatar,
+    },
     process.env.ACCESS_TOKEN_SECRET as string,
     {
       expiresIn: process.env.ACCESS_TOKEN_EXPIRATION,
@@ -76,7 +91,12 @@ UserSchema.methods.createAccessToken = function () {
 
 UserSchema.methods.createRefreshToken = function () {
   return jwt.sign(
-    { userId: this._id, name: this.name, email: this.email },
+    {
+      userId: this._id,
+      name: this.name,
+      email: this.email,
+      avatar: this.avatar,
+    },
     process.env.REFRESH_TOKEN_SECRET as string,
     {
       expiresIn: process.env.REFRESH_TOKEN_EXPIRATION,

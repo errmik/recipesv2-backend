@@ -11,11 +11,64 @@ import { sendLoginVerificationMail } from "../mail/mailer.js";
 import jwt, { JwtPayload } from "jsonwebtoken";
 import otpGenerator from "otp-generator";
 import errorCodes from "../constants/errorCodes.js";
+import successCodes from "../constants/successCodes.js";
+import { getGitHubUser } from "../lib/github.js";
 
 //TODO : rate limiting on all those controller
 //implement lock account
-//send email on password reset
 
+//These routes need to be protected by an api key.
+
+//Called by the Recipes frontend after GitHub login
+const loginWithGithub = async (req: Request, res: Response) => {
+  //Code provided by GitHub when redirected after login...
+  const { code } = req.query;
+
+  //...used to then get a GitHub user
+  let ghUser = await getGitHubUser(code as string);
+
+  //And then a Recipes user
+  let user = await User.findOne({ email: ghUser.email }).exec();
+
+  if (!user) {
+    //User don't exist, create it
+    user = new User({
+      email: ghUser.email,
+      name: ghUser.name,
+      avatar: ghUser.avatar_url,
+    });
+
+    //apply default avatar if necessary
+    if (!user.avatar) user.avatar = `https://robohash.org/${user._id}`;
+
+    await user.save();
+  }
+
+  //Create access and refresh tokens
+  const accessToken = user.createAccessToken();
+  const refreshToken = user.createRefreshToken();
+
+  //Save refresh token in database
+  user.refreshToken = refreshToken;
+  await user.save();
+
+  //Tokens are sent in json response. Storing it in the most secure way is the frontend responsability
+  res.status(StatusCodes.OK).json({
+    success: true,
+    msg: "Logged in with GitHub",
+    code: successCodes.LOGGED_IN_WITH_GITHUB,
+    accessToken,
+    refreshToken,
+    user: {
+      userId: user._id,
+      name: user.name,
+      email: user.email,
+      avatar: user.avatar,
+    },
+  });
+};
+
+//Login query : checks the user and sends an OTP by email
 const login = async (req: Request, res: Response) => {
   const { email } = req.body;
 
@@ -32,16 +85,18 @@ const login = async (req: Request, res: Response) => {
     throw new BadRequestError("User not found", errorCodes.USER_NOT_FOUND);
   }
 
-  await manageOtp(user);
+  await sendOtp(user);
 
   res.status(StatusCodes.OK).json({
-    status: "mailsent",
+    success: true,
     msg: "A verification email has been sent. Please verify your account.",
+    code: successCodes.OTP_SENT,
     name: user.name,
     email: user.email,
   });
 };
 
+//Signup query. Creates the user and sends an OTP by email.
 const signup = async (req: Request, res: Response) => {
   const { email, name } = req.body;
 
@@ -65,18 +120,25 @@ const signup = async (req: Request, res: Response) => {
     email,
     name,
   });
+
+  //apply default avatar
+  user.avatar = `https://robohash.org/${user._id}`;
+
   await user.save();
 
-  await manageOtp(user);
+  await sendOtp(user);
 
   res.status(StatusCodes.OK).json({
-    status: "mailsent",
+    success: true,
     msg: "A verification email has been sent. Please verify your account.",
+    code: successCodes.OTP_SENT,
     name: user.name,
     email: user.email,
   });
 };
 
+//OTP verification request.
+//Checks if the OTP belongs to the user, and generates the access and refresh tokens
 const verifyOtp = async (req: Request, res: Response) => {
   const { email, otp } = req.body;
 
@@ -100,8 +162,10 @@ const verifyOtp = async (req: Request, res: Response) => {
     throw new UnauthorizedError("Invalid password");
   }
 
-  //Check expiration TODO
+  //Delete the OTP, just in case
+  await LoginToken.deleteMany({ user: user._id });
 
+  //Check expiration TODO
   const accessToken = user.createAccessToken();
   const refreshToken = user.createRefreshToken();
 
@@ -109,29 +173,24 @@ const verifyOtp = async (req: Request, res: Response) => {
   user.refreshToken = refreshToken;
   await user.save();
 
-  //Refresh token is sent in a http only cookie, so it should not be accessible from frontend js
-  // res.cookie(
-  //   process.env.REFRESH_TOKEN_COOKIE || "recipesJwtRefresh",
-  //   refreshToken,
-  //   {
-  //     httpOnly: true,
-  //     sameSite: "none",
-  //     secure: true,
-  //     maxAge: 24 * 60 * 60 * 1000,
-  //   }
-  // );
-
-  //Access token is sent in json response. Storing it in the most secure way is the frontend responsability
+  //Tokens are sent in json response. Storing it in the most secure way is the frontend responsability
   res.status(StatusCodes.OK).json({
-    userId: user._id,
-    name: user.name,
-    email: user.email,
+    success: true,
+    msg: "Otp verified",
+    code: successCodes.OTP_VERIFIED,
     accessToken,
     refreshToken,
+    user: {
+      userId: user._id,
+      name: user.name,
+      email: user.email,
+      avatar: user.avatar,
+    },
   });
 };
 
 const refreshToken = async (req: Request, res: Response) => {
+  //TODO : what is the expected token name ?
   if (!req.cookies?.jwt) {
     throw new UnauthorizedError("No refresh token");
   }
@@ -197,6 +256,7 @@ const refreshToken = async (req: Request, res: Response) => {
 };
 
 const logOut = async (req: Request, res: Response) => {
+  //TODO : what is the expected token name ?
   if (!req.cookies?.jwt) {
     //No cookie ? nothing to do
     return res.sendStatus(StatusCodes.NO_CONTENT);
@@ -252,7 +312,8 @@ const logOut = async (req: Request, res: Response) => {
 };
 
 //Not exported utils
-const manageOtp = async (user: IUser) => {
+//Generates an OTP for a user, stores it in the database, and sends it by email to the user
+const sendOtp = async (user: IUser) => {
   //Delete all previously created login tokens, just in case
   await LoginToken.deleteMany({ user: user._id });
 
@@ -263,6 +324,7 @@ const manageOtp = async (user: IUser) => {
     specialChars: false,
   });
 
+  //Save the OTP
   const token = new LoginToken({
     user: user._id,
     token: otp,
@@ -276,4 +338,4 @@ const manageOtp = async (user: IUser) => {
   }
 };
 
-export { login, signup, verifyOtp, refreshToken, logOut };
+export { login, loginWithGithub, signup, verifyOtp, refreshToken, logOut };

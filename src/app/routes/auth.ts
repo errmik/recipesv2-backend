@@ -3,6 +3,7 @@ const router = express.Router();
 
 import {
   verifyOtp,
+  loginWithGithub,
   login,
   signup,
   refreshToken,
@@ -11,6 +12,7 @@ import {
 
 router.post("/signup", signup);
 router.post("/login", login);
+router.get("/github", loginWithGithub);
 router.post("/verify", verifyOtp);
 router.get("/refreshToken", refreshToken);
 router.get("/logout", logOut);

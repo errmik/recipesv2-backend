@@ -14,11 +14,12 @@ const errorHandler = async (
   if (err instanceof CustomError)
     return res
       .status((err as CustomError).statusCode!)
-      .json({ msg: err.message, code: err.errorCode });
+      .json({ success: false, msg: err.message, code: err.errorCode });
 
   //Mongoose error : some fields cannot be validated
   if (err.name === "ValidationError") {
     return res.status(StatusCodes.BAD_REQUEST).json({
+      success: false,
       msg: Object.values((err as mongoose.Error.ValidationError).errors)
         .map((item) => item.message)
         .join(","),
@@ -32,12 +33,14 @@ const errorHandler = async (
     (err as mongoose.mongo.MongoError).code === 11000
   ) {
     return res.status(StatusCodes.BAD_REQUEST).json({
+      success: false,
       msg: "Duplicate value", //`Duplicate value entered for ${Object.keys(err.keyValue)} field`,
       code: "TODO",
     });
   }
 
   return res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
+    success: false,
     msg: "something went wrong",
     code: errorCodes.INTERNAL_ERROR,
   });

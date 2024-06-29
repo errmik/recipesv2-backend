@@ -24,6 +24,7 @@ const getAllIngredients = async (req: Request, res: Response) => {
       } photo`
     )
     .sort(`name.${lang}`)
+    .collation({ locale: lang as string, caseLevel: true })
     .exec();
 
   res.status(StatusCodes.OK).json(ingredients);
@@ -49,6 +50,7 @@ const getIngredients = async (req: Request, res: Response) => {
 
   const ingredients = await Ingredient.find({})
     .sort({ [sortName]: 1 })
+    .collation({ locale: lang as string, caseLevel: true })
     .skip((page - 1) * limit)
     .limit(limit)
     .select(

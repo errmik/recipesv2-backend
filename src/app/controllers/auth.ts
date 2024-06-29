@@ -111,7 +111,10 @@ const signup = async (req: Request, res: Response) => {
   let user = await User.findOne({ email }).exec();
 
   if (user) {
-    throw new BadRequestError("User already exists");
+    throw new BadRequestError(
+      "User already exists",
+      errorCodes.USER_ALREADY_EXISTS
+    );
   }
 
   //User don't exist, create it

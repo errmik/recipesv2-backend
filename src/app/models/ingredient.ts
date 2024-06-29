@@ -30,8 +30,30 @@ const IngredientSchema = new Schema({
     ru: { type: String },
     zh: { type: String },
   },
+  photo: { type: String },
   createdDate: { type: Date, default: Date.now },
 });
+
+// calories	Decimal	Energy content in kcal
+// carbohydrate	Decimal	Total carbohydrate content in grams
+// protein	Decimal	Protein content in grams
+// fat	Decimal	Total fat content in grams
+// saturated_fat	Decimal	Saturated fat content in grams (where available)
+// polyunsaturated_fat	Decimal	Polyunsaturated fat content in grams (where available)
+// monounsaturated_fat	Decimal	Monounsaturated fat content in grams (where available)
+// cholesterol	Decimal	Cholesterol content in milligrams (where available)
+// sodium	Decimal	Sodium content in milligrams (where available)
+// potassium	Decimal	Potassium content in milligrams (where available)
+// fiber	Decimal	Fiber content in grams (where available)
+// sugar	Decimal	Sugar content in grams (where available)
+// vitamin_a	Decimal	Vitamin A content in micrograms (where available)
+// vitamin_c	Decimal	Vitamin C content in milligrams (where available)
+// calcium	Decimal	Calcium content in milligrams (where available)
+// iron	Decimal	Iron content in milligrams (where available)
+// is_default	Int	(Premier Exclusive) Only included if its the suggested or most commonly chosen option. If included equals 1
+// trans_fat	Decimal	Trans fat content in grams (where available)
+// added_sugars	Decimal	Added Sugars content in grams (where available)
+// vitamin_d	Decimal	Vitamin D content in micrograms (where available)
 
 const Ingredient = mongoose.model("Ingredient", IngredientSchema);
 

@@ -14,7 +14,17 @@ const getAllIngredients = async (req: Request, res: Response) => {
 
   if (!lang) lang = langConstants.DEFAULT_LANG;
 
-  const ingredients = await Ingredient.find({}).select(`name.${lang}`).exec();
+  //return the string fields in the requested language, and in th default language if different from the requested language
+  const ingredients = await Ingredient.find({})
+    .select(
+      `name.${lang} ${
+        lang != langConstants.DEFAULT_LANG
+          ? "name." + langConstants.DEFAULT_LANG
+          : ""
+      } photo`
+    )
+    .sort(`name.${lang}`)
+    .exec();
 
   res.status(StatusCodes.OK).json(ingredients);
 };
@@ -29,11 +39,25 @@ const getIngredients = async (req: Request, res: Response) => {
   if (!page) page = 1;
   if (!limit) limit = searchConstants.DEFAULT_LIMIT;
 
+  // let selectString = `name.${lang} ${
+  //   lang != langConstants.DEFAULT_LANG ? langConstants.DEFAULT_LANG : ""
+  // } photo`;
+
   let totalHits = await Ingredient.countDocuments({});
+
+  let sortName = `name.${lang}`;
+
   const ingredients = await Ingredient.find({})
+    .sort({ [sortName]: 1 })
     .skip((page - 1) * limit)
     .limit(limit)
-    .select(`name.${lang}`)
+    .select(
+      `name.${lang} ${
+        lang != langConstants.DEFAULT_LANG
+          ? "name." + langConstants.DEFAULT_LANG
+          : ""
+      } photo`
+    )
     .exec();
 
   res.status(StatusCodes.OK).json({
@@ -45,25 +69,51 @@ const getIngredients = async (req: Request, res: Response) => {
   });
 };
 
+const countAllIngredients = async (req: Request, res: Response) => {
+  let totalHits = await Ingredient.countDocuments({});
+  res.status(StatusCodes.OK).json(totalHits);
+};
+
+//UNUSED FOR NOW
+//https://www.mongodb.com/docs/atlas/atlas-search/tutorial/partial-match/
 const searchIngredients = async (req: Request, res: Response) => {
   let { text, lang } = req.body;
+
+  if (!lang) lang = langConstants.DEFAULT_LANG;
+
+  //split the search query into individual terms, and wildcard-ize them
+  // let query = text as string;
+  // let splittedQuery = query.split(" ").map((item) => `*${item.trim()}*`);
+
+  // text = "*" + text + "*";
 
   let pipeline = [
     {
       $search: {
         index: "ingredients_search_index",
-        text: {
-          query: text,
+        // text: {
+        //   query: text,
+        //   path: `name.${lang}`,
+        //   // fuzzy: {
+        //   //     maxEdits: 2
+        //   // }
+        // },
+        wildcard: {
           path: `name.${lang}`,
-          // fuzzy: {
-          //     maxEdits: 2
-          // }
+          query: text,
+          //query: `${splittedQuery.join(" ")}`,
+          allowAnalyzedField: true,
         },
       },
     },
     { $limit: 12 },
-    { $project: { _id: 1, [`name.${lang}`]: 1 } },
+    { $project: { _id: 1, [`name.${lang}`]: 1, photo: 1 } },
   ];
+
+  if (lang != langConstants.DEFAULT_LANG) {
+    //Add default language in the projection object
+    pipeline[2].$project![`name.${langConstants.DEFAULT_LANG}`] = 1;
+  }
 
   var results = await Ingredient.aggregate(pipeline).exec();
 
@@ -72,6 +122,62 @@ const searchIngredients = async (req: Request, res: Response) => {
 
 const autocompleteIngredients = async (req: Request, res: Response) => {
   let { text, lang } = req.body;
+
+  let page: number = parseInt(req.body.page as string);
+  let limit: number = parseInt(req.body.limit as string);
+
+  if (!lang) lang = langConstants.DEFAULT_LANG;
+  if (!page) page = 1;
+  if (!limit) limit = searchConstants.DEFAULT_LIMIT;
+
+  let pipeline = [
+    {
+      $search: {
+        index: "ingredients_search_index",
+        autocomplete: {
+          query: text,
+          path: `name.${lang}`,
+          // fuzzy: {
+          //     maxEdits: 2
+          // }
+        },
+        count: {
+          type: "total",
+        },
+      },
+    },
+    // {
+    //   $count: "totalCount",
+    // },
+    { $skip: (page - 1) * limit },
+    { $limit: limit },
+    {
+      $project: {
+        meta: "$$SEARCH_META",
+        _id: 1,
+        photo: 1,
+        [`name.${lang}`]: 1,
+        [`description.${lang}`]: 1,
+      },
+    },
+    //{ $project: { _id: 1, [`name.${lang}`]: 1 } }
+  ];
+
+  // if (lang != langConstants.DEFAULT_LANG) {
+  //   //Add default language in the projection object
+  //   pipeline[3].$project![`name.${langConstants.DEFAULT_LANG}`] = 1;
+  //   pipeline[3].$project![`description.${langConstants.DEFAULT_LANG}`] = 1;
+  // }
+
+  var results = await Ingredient.aggregate(pipeline).exec();
+
+  res.status(StatusCodes.OK).json(results);
+};
+
+const countAutocompleteIngredients = async (req: Request, res: Response) => {
+  let { text, lang } = req.body;
+
+  if (!lang) lang = langConstants.DEFAULT_LANG;
 
   let pipeline = [
     {
@@ -86,9 +192,9 @@ const autocompleteIngredients = async (req: Request, res: Response) => {
         },
       },
     },
-    { $limit: 12 },
-    { $project: { _id: 1, [`name.${lang}`]: 1 } },
-    //{ $project: { _id: 1, [`name.${lang}`]: 1 } }
+    {
+      $count: "totalCount",
+    },
   ];
 
   var results = await Ingredient.aggregate(pipeline).exec();
@@ -103,7 +209,9 @@ const getIngredient = async (req: Request, res: Response) => {
 
   if (!ingredient) throw new NotFoundError("Ingredient not found");
 
-  res.status(StatusCodes.OK).json({ ingredient });
+  console.log(ingredient);
+
+  res.status(StatusCodes.OK).json(ingredient);
 };
 
 const createIngredient = async (req: Request, res: Response) => {
@@ -147,8 +255,10 @@ const deleteIngredient = async (req: Request, res: Response) => {
 export {
   getAllIngredients,
   getIngredients,
+  countAllIngredients,
   searchIngredients,
   autocompleteIngredients,
+  countAutocompleteIngredients,
   getIngredient,
   createIngredient,
   updateIngredient,

@@ -12,18 +12,22 @@ import {
   createIngredient,
   updateIngredient,
   deleteIngredient,
+  countAutocompleteIngredients,
+  countAllIngredients,
 } from "../controllers/ingredients.js";
 
 //All 'get' actions don't need to be authenticated
 //All other actions (the ones that make modifications to the db) need to be authenticated
 
 router.route("/").get(getIngredients).post(authMiddleware, createIngredient);
+router.route("/count").get(countAllIngredients);
 
 router.route("/all").get(getAllIngredients);
 
 router.route("/search").post(searchIngredients);
 
 router.route("/search/autocomplete").post(autocompleteIngredients);
+router.route("/search/autocomplete/count").post(countAutocompleteIngredients);
 
 router
   .route("/:id")

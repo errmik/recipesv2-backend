@@ -14,15 +14,9 @@ const getAllIngredients = async (req: Request, res: Response) => {
 
   if (!lang) lang = langConstants.DEFAULT_LANG;
 
-  //return the string fields in the requested language, and in th default language if different from the requested language
+  //return the string fields in the requested language
   const ingredients = await Ingredient.find({})
-    .select(
-      `name.${lang} ${
-        lang != langConstants.DEFAULT_LANG
-          ? "name." + langConstants.DEFAULT_LANG
-          : ""
-      } photo`
-    )
+    .select(`name.${lang} description.${lang} photo`)
     .sort(`name.${lang}`)
     .collation({ locale: lang as string, caseLevel: true })
     .exec();
@@ -40,10 +34,6 @@ const getIngredients = async (req: Request, res: Response) => {
   if (!page) page = 1;
   if (!limit) limit = searchConstants.DEFAULT_LIMIT;
 
-  // let selectString = `name.${lang} ${
-  //   lang != langConstants.DEFAULT_LANG ? langConstants.DEFAULT_LANG : ""
-  // } photo`;
-
   let totalHits = await Ingredient.countDocuments({});
 
   let sortName = `name.${lang}`;
@@ -53,13 +43,7 @@ const getIngredients = async (req: Request, res: Response) => {
     .collation({ locale: lang as string, caseLevel: true })
     .skip((page - 1) * limit)
     .limit(limit)
-    .select(
-      `name.${lang} ${
-        lang != langConstants.DEFAULT_LANG
-          ? "name." + langConstants.DEFAULT_LANG
-          : ""
-      } photo`
-    )
+    .select(`name.${lang} description.${lang} photo`)
     .exec();
 
   res.status(StatusCodes.OK).json({
@@ -162,14 +146,7 @@ const autocompleteIngredients = async (req: Request, res: Response) => {
         [`description.${lang}`]: 1,
       },
     },
-    //{ $project: { _id: 1, [`name.${lang}`]: 1 } }
   ];
-
-  // if (lang != langConstants.DEFAULT_LANG) {
-  //   //Add default language in the projection object
-  //   pipeline[3].$project![`name.${langConstants.DEFAULT_LANG}`] = 1;
-  //   pipeline[3].$project![`description.${langConstants.DEFAULT_LANG}`] = 1;
-  // }
 
   var results = await Ingredient.aggregate(pipeline).exec();
 
@@ -211,7 +188,7 @@ const getIngredient = async (req: Request, res: Response) => {
 
   if (!ingredient) throw new NotFoundError("Ingredient not found");
 
-  console.log(ingredient);
+  //console.log(ingredient);
 
   res.status(StatusCodes.OK).json(ingredient);
 };
@@ -228,9 +205,29 @@ const createIngredient = async (req: Request, res: Response) => {
 const updateIngredient = async (req: Request, res: Response) => {
   const ingredientId = req.params.id;
 
-  const ingredient = await Ingredient.findByIdAndUpdate(
-    ingredientId,
-    req.body,
+  //Partial update of nested paths "name" and "description"
+  //Generate a list of updated fields :
+  // - all top level fields
+  // - name[locale] and description[locale]
+  const fields = [];
+
+  for (let [key, value] of Object.entries(req.body)) {
+    if (key === "name" || key === "description") {
+      for (let [key2, value2] of Object.entries(value as Object)) {
+        fields.push([`${key}.${key2}`, value2]);
+      }
+    } else {
+      fields.push([key, value]);
+    }
+  }
+
+  const update = Object.fromEntries(fields);
+
+  const ingredient = await Ingredient.findOneAndUpdate(
+    { _id: ingredientId },
+    {
+      $set: update,
+    },
     {
       //return the new object (updated one)
       new: true,

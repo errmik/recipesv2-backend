@@ -14,7 +14,7 @@ router.post("/signup", signup);
 router.post("/login", login);
 router.get("/github", loginWithGithub);
 router.post("/verify", verifyOtp);
-router.get("/refreshToken", refreshToken);
+router.post("/refreshToken", refreshToken);
 router.get("/logout", logOut);
 
 export { router as authRouter };

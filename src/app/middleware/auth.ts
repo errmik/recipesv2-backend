@@ -1,6 +1,8 @@
 import jwt from "jsonwebtoken";
+import TokenExpiredError from "jsonwebtoken";
 import { UnauthorizedError } from "../errors/customError.js";
 import { Request, Response, NextFunction } from "express";
+import errorCodes from "../constants/errorCodes.js";
 
 //Move those interfaces in a dedicated module
 // interface AuthentifiedRequest extends Request {
@@ -45,8 +47,14 @@ const auth = async (req: Request, res: Response, next: NextFunction) => {
     };
 
     next();
-  } catch (error) {
-    throw new UnauthorizedError("Unauthorized");
+  } catch (error: any) {
+    if (error?.name === "TokenExpiredError")
+      throw new UnauthorizedError("Unauthorized", errorCodes.TOKEN_EXPIRED);
+
+    if (error?.name === "JsonWebTokenError" || error?.name === "NotBeforeError")
+      throw new UnauthorizedError("Unauthorized", errorCodes.TOKEN_INVALID);
+
+    throw new UnauthorizedError("Unauthorized", errorCodes.INTERNAL_ERROR);
   }
 };
 

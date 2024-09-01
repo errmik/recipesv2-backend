@@ -193,14 +193,14 @@ const verifyOtp = async (req: Request, res: Response) => {
 };
 
 const refreshToken = async (req: Request, res: Response) => {
+  const { refreshToken } = req.body;
+
   //TODO : what is the expected token name ?
-  if (!req.cookies?.jwt) {
-    throw new UnauthorizedError("No refresh token");
-  }
+  // if (!req.cookies?.recipes_refresh_token) {
+  //   throw new UnauthorizedError("No refresh token");
+  // }
 
-  var refreshToken = req.cookies.jwt;
-
-  //console.log(refreshToken)
+  console.log(Date.now().toLocaleString() + "refreshToken :" + refreshToken);
 
   //Check refresh token
   let payload: JwtPayload;
@@ -210,28 +210,34 @@ const refreshToken = async (req: Request, res: Response) => {
       refreshToken,
       process.env.REFRESH_TOKEN_SECRET as string
     ) as JwtPayload;
-  } catch (err) {
-    throw new BadRequestError("Invalid token");
+  } catch (error: any) {
+    if (error?.name === "TokenExpiredError")
+      throw new UnauthorizedError("Unauthorized", errorCodes.TOKEN_EXPIRED);
+
+    if (error?.name === "JsonWebTokenError" || error?.name === "NotBeforeError")
+      throw new UnauthorizedError("Unauthorized", errorCodes.TOKEN_INVALID);
+
+    throw new UnauthorizedError("Unauthorized", errorCodes.INTERNAL_ERROR);
   }
 
   const { userId, name, email } = payload;
 
   if (!userId || !name || !email) {
-    throw new UnauthorizedError("Invalid token");
+    throw new UnauthorizedError("Invalid token", errorCodes.TOKEN_INVALID);
   }
 
   //Find user associated with token
   const user = await User.findById(userId).exec();
 
   if (!user) {
-    throw new UnauthorizedError("Invalid token");
+    throw new UnauthorizedError("Invalid token", errorCodes.TOKEN_INVALID);
   }
 
   //Check user validity ? blocked ? verified ?
 
   //Check name and email too ? What if a user modifies his name/email ? Generate new tokens ?
   if (user.refreshToken !== refreshToken) {
-    throw new UnauthorizedError("Invalid token");
+    throw new UnauthorizedError("Invalid token", errorCodes.TOKEN_INVALID);
   }
 
   const accessToken = user.createAccessToken();
@@ -251,6 +257,9 @@ const refreshToken = async (req: Request, res: Response) => {
 
   //Access token is sent in json response. Storing it in the most secure way is the frontend responsability
   res.status(StatusCodes.OK).json({
+    success: true,
+    code: successCodes.TOKEN_REFRESHED,
+    msg: "Token refreshed",
     userId: user._id,
     name: user.name,
     email: user.email,

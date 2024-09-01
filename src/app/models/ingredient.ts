@@ -31,6 +31,14 @@ const IngredientSchema = new Schema({
     zh: { type: String },
   },
   photo: { type: String },
+  calories: { type: Number }, //in kcal
+  carbs: { type: Number }, //in grams
+  protein: { type: Number }, //in grams
+  fat: { type: Number }, //in grams
+  cholesterol: { type: Number }, //in milligrams
+  sugar: { type: Number }, //in grams
+  sodium: { type: Number }, //in milligrams
+  fiber: { type: Number }, //in grams
   createdDate: { type: Date, default: Date.now },
 });
 

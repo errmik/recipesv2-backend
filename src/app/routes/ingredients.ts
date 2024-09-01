@@ -32,7 +32,7 @@ router.route("/search/autocomplete/count").post(countAutocompleteIngredients);
 router
   .route("/:id")
   .get(getIngredient)
-  .patch(authMiddleware, updateIngredient)
+  .put(authMiddleware, updateIngredient)
   .delete(authMiddleware, deleteIngredient);
 
 export { router as ingredientsRouter };

@@ -1,0 +1,5 @@
+Use env var at runtime, not from a file in the image
+Build different images for 3 architectures using a different repo for each (pass repos to public)
+Make a functionning install of node with apt on rpi (maybe get a rpi 4)
+Docker Compose back and frontend
+Docker optimized image
